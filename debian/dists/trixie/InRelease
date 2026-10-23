@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Acquire-By-Hash: yes
+Architectures: amd64
+Codename: trixie
+Components: main
+Date: Fri, 23 Oct 2026 22:31:29 +0000
+Origin: VOC-Experiments/ci-coordinator
+Suite: trixie
+SHA256:
+ 24d0fc8df8d421cd766ee1d6a05e9f26ba05bad11b719fae60c3746608e598b5             9965 main/binary-amd64/Packages
+ 63ce8d3006d21bc116f011740c373f5b29e5dd188a2c90b7a2c24297d9eb8ed1             3540 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEpLMHqc/VgwiVR0gd5YwWX0NA7pkFAmrb4EEACgkQ5YwWX0NA
+7pkUDQwApnf8N6aivsxLvt4nNLwpT7r3Ju/+QT46HrSS6YswaJ+UP0DuO/IlMUd6
+3HII452RZCAVWevvO0ncsevRtG0+t6y06Ibt8M4EQYjoCEPaDiZ9KsH7g1pS70RG
+Bh8TqDxULELWOs3Ss6R0fQNBXZRmW8qyaucaFdek6KaQBRE/Dz3GcfioZVQNNsoN
+OtgXHqgBzauZT6JjU67eOknRxHmR8exIB1yt7A+9d0t9ryvc4e8JTT/tdH6/owSh
+nJTBZ1IF7hxAaEKpg+kM77FQd29/0EjTkjMPIGcwy5zhBWG1cYW7Nv86wVcggLhS
+4W0u9fY/xfFcVPQmdgl7M2ayz4KC8lHDIuafXhggl1P87Em1ey7dR8hR7ykqSwrk
+Pa/MHYxOmcpqemP4GlP/K6cTDsw31Jfoz1uLlQtPTGXUKuONnCqqMHa24jQIEYaC
+JTeSO8VKKZ5eBoasi3VZ325Fw1GqtBkci13lJKndc1jzAnT7eC8TepF8yNiyWRXd
+C8rhQaXR
+=rUfO
+-----END PGP SIGNATURE-----

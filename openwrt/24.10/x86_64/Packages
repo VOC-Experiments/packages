@@ -1,0 +1,224 @@
+Package: demo-app
+Version: 1.0.0-r13
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.0.0-r13_x86_64.ipk
+Size: 1730
+SHA256sum: 7e0122f8e9f5d468d4c66765220d4a756e46e612c0e0a154b0837134309b2a5f
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.1.0-r17
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.1.0-r17_x86_64.ipk
+Size: 1732
+SHA256sum: 30340f57a673ca998d706b3c9a772ea76a1be162eced6d6377fb13572427e21b
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.2.0-r26
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.2.0-r26_x86_64.ipk
+Size: 1732
+SHA256sum: d80fab085dd5113e70f8fadd2f01f5d203bfbd55787b0999c31af391bd7819ff
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.2.9-r29
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.2.9-r29_x86_64.ipk
+Size: 1746
+SHA256sum: 643431c2b0db364f00d7a2ac9d2a79e3faa927d5be49d8195a7070c25fc80d4d
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.3.0-r31
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.3.0-r31_x86_64.ipk
+Size: 1733
+SHA256sum: 3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8
+Description:  demo-app canonical CI experiment
+
+Package: demo-core
+Version: 0.9.0-r13
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_0.9.0-r13_x86_64.ipk
+Size: 2244
+SHA256sum: 53fdc12d5f3b51b10c98348798d3036fedb439cc9fed860b83176cd898cde0de
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.0.0-r6
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.0.0-r6_x86_64.ipk
+Size: 2240
+SHA256sum: 00c59a57067051752dc51397e0bc07ed1a6efabcd1a06560253a909f4ace372a
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.1.0-r15
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.1.0-r15_x86_64.ipk
+Size: 2240
+SHA256sum: 3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34
+Description:  demo-core canonical CI experiment
+
+Package: demo-join
+Version: 1.0.0-r4
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.0.0-r4_x86_64.ipk
+Size: 1784
+SHA256sum: 9b6b15ef505baccff4ca01f26a1652febd2ad5fb84902f270937eb7d73c2a544
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r39
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r39_x86_64.ipk
+Size: 1785
+SHA256sum: f94f493ea041ccdc9b5f31a267d5846d12474692065778178c7d4780b52172bb
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.2.0-r42
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.2.0-r42_x86_64.ipk
+Size: 1781
+SHA256sum: 7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044
+Description:  demo-join canonical CI experiment
+
+Package: demo-side
+Version: 1.0.0-r1
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.0.0-r1_x86_64.ipk
+Size: 2271
+SHA256sum: e620af01a0312a032e9e37bbb4be03b6a045f263de8c8735c91d36d37bc274d5
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.1.0-r6
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.1.0-r6_x86_64.ipk
+Size: 2271
+SHA256sum: ac4dfb16a220fa5d1a45b76b3e9022c36e1eb3bc7c3cba6b28da5c406b87f740
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.2.0-r11
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.2.0-r11_x86_64.ipk
+Size: 2274
+SHA256sum: b5fd506f7786e134a7507884b27b21b7dae8132ad5eb88c96d11775b7afb767d
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.3.0-r20
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.3.0-r20_x86_64.ipk
+Size: 2273
+SHA256sum: 6bc08dc2ee4c7af4418b88ccd366779ca14db122075539f83e0590f4bdb3e39a
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.4.0-r23
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.4.0-r23_x86_64.ipk
+Size: 2280
+SHA256sum: e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5
+Description:  demo-side canonical CI experiment
+

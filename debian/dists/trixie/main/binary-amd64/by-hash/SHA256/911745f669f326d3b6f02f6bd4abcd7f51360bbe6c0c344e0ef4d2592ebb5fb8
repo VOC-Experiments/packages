@@ -1,0 +1,51 @@
+Package: demo-app
+Architecture: amd64
+Version: 0.9.0-11~trixie
+Maintainer: VOC Experiments <ci@example.invalid>
+Depends: demo-core
+Filename: pool/trixie/demo-app_0.9.0-11~trixie_amd64.deb
+Size: 2676
+MD5sum: 66d24fcc96ca146f760753766a897b2f
+SHA1: 99959c2098bddba800e762b714ba0669d5ab438b
+SHA256: 04bb0ee1d7587beee4d7e82a37d3f1c025c19febed892a4d6cc2c553feb9e698
+SHA512: d6685111f957ae16975bb3b5000f4f2e7d979124a208060ef3fd6b24b8d96378f0cb42663978ca839cd53f8374d058c8a64fbed9f3f471197cf4f6e4d8894c55
+Description: Disposable canonical CI integration experiment
+
+Package: demo-app
+Architecture: amd64
+Version: 1.0.0-4~trixie
+Maintainer: VOC Experiments <ci@example.invalid>
+Depends: demo-core
+Filename: pool/trixie/demo-app_1.0.0-4~trixie_amd64.deb
+Size: 2668
+MD5sum: 4292b794bccbcf4d19f50e69a9cbc78a
+SHA1: 4722c3dd63a6d1aebb1b6009978c8ff77f521d3d
+SHA256: c638b37ae3d3aad4b5870bae7f5186526494bd6f865cb1e6e9625f5492402c4f
+SHA512: 6c5534fc55447fc36daff6eaa84685c1685bbf114bc4b677723986a53387fdf1a634374e703afb940f051ece8de0f118d6d8f2dc6033bde357a9087f6d16d61d
+Description: Disposable canonical CI integration experiment
+
+Package: demo-core
+Architecture: amd64
+Version: 1.0.0-5~trixie
+Maintainer: VOC Experiments <ci@example.invalid>
+Filename: pool/trixie/demo-core_1.0.0-5~trixie_amd64.deb
+Size: 3352
+MD5sum: 2d8c956556470f9e00f64e138f854a2b
+SHA1: 9686d94bb00d3f880e8f2c8407e1e2cffaed7d19
+SHA256: ebdb4b5defdb71a2d167c297ee2f9da236e40f62fd8f91b1a08553c36b713114
+SHA512: ad96a8a7ceef3dc7c19083e64903555d292dbb480a8d05fdff14a8836fc600de06ca5d89b67c350a1bca0f783e94f7b02780ff58f1c61172f4d1b569ae4eca7f
+Description: Disposable canonical CI integration experiment
+
+Package: demo-side
+Architecture: amd64
+Version: 1.0.0-1~trixie
+Maintainer: VOC Experiments <ci@example.invalid>
+Depends: demo-core
+Filename: pool/trixie/demo-side_1.0.0-1~trixie_amd64.deb
+Size: 3388
+MD5sum: b6834ef76420dc6ea5ec2c1a56a77661
+SHA1: 4f02eeebb75cf7c5171a7ad86b74f7f1c204a9d2
+SHA256: 3bf7826e563c892921d52e70df6e259162f412d3d46ed73811673cd7ac248369
+SHA512: ce27b30f09dae2842cee6f3a933ee99a0dd4138ff014d594fda1af729634c4f582f643b03b43da73422997ab878c95280c3c25023334f22b0b8cb590ed5bf193
+Description: Disposable canonical CI diamond arm
+
