@@ -31,7 +31,7 @@
 <thead><tr><th>Architecture</th><th>Available</th><th>Published (UTC)</th><th>In build</th><th>Links</th></tr></thead>
 <tbody>
 <tr><td align="left"><code>aarch64_generic</code></td><td align="left"><code>1.2.0-r42</code></td><td align="left">2026-10-23 22:35</td><td align="center">—</td><td align="left"><a href="https://github.com/VOC-Experiments/demo-join/actions/runs/40034015426/job/120688949945">Build log</a> · <a href="../openwrt/24.10/aarch64_generic/">Packages</a></td></tr>
-<tr><td align="left"><code>x86_64</code></td><td align="left"><code>1.2.0-r41</code></td><td align="left">2026-10-23 22:18</td><td align="left"><img src="badges/publishing.svg" alt="publishing" title="Publishing" width="14" height="14" align="absmiddle"> Publishing <code>1.2.0-r42</code></td><td align="left"><a href="https://github.com/VOC-Experiments/demo-join/actions/runs/40034004136/job/120688919506">Build log</a> · <a href="../openwrt/24.10/x86_64/">Packages</a></td></tr>
+<tr><td align="left"><code>x86_64</code></td><td align="left"><code>1.2.0-r42</code></td><td align="left">2026-10-23 22:47</td><td align="center">—</td><td align="left"><a href="https://github.com/VOC-Experiments/demo-join/actions/runs/40034004136/job/120688919506">Build log</a> · <a href="../openwrt/24.10/x86_64/">Packages</a></td></tr>
 </tbody>
 </table>
 
