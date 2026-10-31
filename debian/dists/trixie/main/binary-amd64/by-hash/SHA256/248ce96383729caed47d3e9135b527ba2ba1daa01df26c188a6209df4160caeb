@@ -1,0 +1,12 @@
+Package: demo-core
+Architecture: amd64
+Version: 1.0.0-2~trixie
+Maintainer: VOC Experiments <ci@example.invalid>
+Filename: pool/trixie/demo-core_1.0.0-2~trixie_amd64.deb
+Size: 3344
+MD5sum: 6c292356cd6d67017d605562cc8e32c7
+SHA1: fcd4181db5ecbadf6b1f617e267cb3cbcc6d0d9b
+SHA256: f9dc78258d6ae9918ccfd394a2fd291ae5a2a2d2602e8627b1aade37dde5d134
+SHA512: 1b51f591be94d291bd36047604609544983776f74da959f503e7e990cc652baf36705cfe902ecc85ea910f1cc29bafa0f131f3f60a00961eb1c361ffe14e139b
+Description: Disposable canonical CI integration experiment
+

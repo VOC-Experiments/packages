@@ -1,0 +1,345 @@
+Package: demo-app
+Architecture: arm64
+Version: 2.1.0-2
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-app_2.1.0-2_arm64.deb
+Size: 2984
+MD5sum: 30d09ac0f2c43bb64fa116d978afef71
+SHA1: b7250c09cd05f0ca0677eaaa5fd8f06dca262d2f
+SHA256: 50d7de8c05d865047a7fd0b62fe812423e1268446b990828856f94cb8235f85f
+SHA512: 590bd2345b7f6107feeb19d0f90622b10fc235116ccb76eb12c9c503186ac04b913f40f56cdd5c64c3cbb65209bb1d672324bb4de1fd18cba570fa958ecdabc2
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-app
+Architecture: arm64
+Version: 2.1.0-3
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-app_2.1.0-3_arm64.deb
+Size: 2984
+MD5sum: 5a4fe26982d0cebef194239f0d86ac99
+SHA1: 6e058ef911536b0dec77b9d775095a70ec2e266c
+SHA256: 2c8bacd48f3785390a8e863d3f0a4d8b962f5689e86b1a381f3adf0d53bdc81a
+SHA512: 6788b749b28417c602b6fde108a0ce465ea9a0bde737a91e462b8a57f1a2710d58c0006832337f71cb10c3087d4256b2b7aa1b90dea7116c3720e4e67a3ed194
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-app
+Architecture: arm64
+Version: 2.1.0-461
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-app_2.1.0-461_arm64.deb
+Size: 3004
+MD5sum: 7d55f803b7c13091556bae1d3f68b1f1
+SHA1: f53a46cc4c99746141a4c0ae1b725822f509cfe1
+SHA256: f90327acf7babd0dd103e79b26e668d8e3301346c5a5c82aceadf64bf64c424c
+SHA512: 97a7c900d88c1a3aa9e65d47a5e8ff682cf28bc4ef720aa988cee7b27a3acf2e529aedc8444d63c4e51c0b75a4ecf3d4243e34fe2b1d4c24d531d61ada5bd61a
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-app
+Architecture: arm64
+Version: 2.1.0-4
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-app_2.1.0-4_arm64.deb
+Size: 2992
+MD5sum: 1dac6d427db4dadb5d7ab20f15eb388c
+SHA1: 48ee59fa44b5555ed08bb0e1bc92461f1e6509e5
+SHA256: 9617a47976d01dfadb1252f6e0f222ee0eca0cf58b2411837e33ba373d08211c
+SHA512: ea62e8ca52f3ad84f5018f3450ebdd2dd1b94b13cea39494de0c4c0c8b2ca52b18bf717ed2753594b06d0564735d0d6c2e7415b69c19be90299447cdfd76e2c4
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-app
+Architecture: arm64
+Version: 2.1.0-5
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-app_2.1.0-5_arm64.deb
+Size: 2996
+MD5sum: 8c8d105c500238b921b0fb5cc576365b
+SHA1: 9a9c8e51489a952782ea8cf418a3c2a3f1939ebf
+SHA256: 3ae872f4208c2cb65776a4e7e35074824799d2fe0a88eb8a3937a727e71bf957
+SHA512: 0fa722abb78a6cdef5a0699664c17aa16b8ab872a35db86e86ab1e52257a7b3a867a0ec517bf40e20ce59611327245d2d3fb89916e84704616e29df9cd1b1f48
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-core
+Architecture: arm64
+Version: 2.1.11-348
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6
+Filename: pool/trixie/demo-core_2.1.11-348_arm64.deb
+Size: 3296
+MD5sum: da9da91b7dee1e73d2084e0d66c3baea
+SHA1: 536718dd1bb5c9a0b6a2606f8243092e7b7cc9bb
+SHA256: e4edb4a95a073709e3b1ba0727f1316e600080690d9e92606338f998bcd26662
+SHA512: 1d142bfeffecbeb9c21c327b0ea88936824b0a1e0f249e5c16e463848054729fd33aab85a000af9029fb7f1c6cd6635d8cf1e85242f548f927850b50fcca9044
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-core
+Architecture: arm64
+Version: 2.1.12-412
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6
+Filename: pool/trixie/demo-core_2.1.12-412_arm64.deb
+Size: 3312
+MD5sum: d2faeec23355b8d1207e3189bb4f5231
+SHA1: 87cbf32f9fc0dc88dd2f806e2f79aae5c413a96e
+SHA256: b942ce44867bae04000ff65facb40b18772160ac055d7f15065ed2663922fb1a
+SHA512: cfca378294d5fb530ba084fc2b16e78de922bc5a61bdf8e32677f3c46a525c87660e0522ac6f354568f5bb578700792475a98528569de7d9431f7c7e60976132
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-core
+Architecture: arm64
+Version: 2.1.13-2
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6
+Filename: pool/trixie/demo-core_2.1.13-2_arm64.deb
+Size: 3296
+MD5sum: a717744093781e7f0e4fe69f566ba318
+SHA1: 4dbd9b4668b53e35aad0849a89417bc334e9478d
+SHA256: 0f0f39241a53c0980a4f6f4460f30f8286a0d4e0f41713f6b3852e4ee577b0f3
+SHA512: e34c5c469957a2434dd94c157e642aad30d4a3b2929f2a33432deb9a0706dff94d2c25c653585697334420f1917b7df64c39f6fce52919c22e26846129672077
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-core
+Architecture: arm64
+Version: 2.1.13-456
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6
+Filename: pool/trixie/demo-core_2.1.13-456_arm64.deb
+Size: 3304
+MD5sum: 1fd511ff813eaa75526425e69e6c4759
+SHA1: 2f1b5b95e782834ccfe5169a095aa8566d1e100e
+SHA256: d1f6b082b4b16770fcca6b817f4086043283b355560939ad333bdaa7e55992c6
+SHA512: b95051ac598cb81c96247978d1fd1f0d483d471d7cd1f96abb2b91f60500a855e25d6eccc923e00e33b8d7aa944965e828ab492f5ac585b04dbcd614945ce74d
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-core
+Architecture: arm64
+Version: 2.1.14-1
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6
+Filename: pool/trixie/demo-core_2.1.14-1_arm64.deb
+Size: 3304
+MD5sum: 62dc8c3bd7c088ca7a037a9dd724deb9
+SHA1: 0cef8470fbac89a008e20cd0c723d04ccf560079
+SHA256: 5cd637b4467b9d707b0834a0f1ae3fe9995f939b5d8093bbae0a7838ff182f51
+SHA512: 43abc3bff9ce2591e0eef8bfadb3b7bfd1502a3f2f236ec46d11d1417cfe7cc2025072474d89a36a6ed164b46443c522f14a69825522951ad2dd6a51a30716d4
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-core
+Architecture: arm64
+Version: 2.1.15-1
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6
+Filename: pool/trixie/demo-core_2.1.15-1_arm64.deb
+Size: 3304
+MD5sum: 7259c7b19ddba0bf9cc1fe8b4da7509a
+SHA1: c6e33568935ca62f079c78aed9ee5dbdc49b8e14
+SHA256: 728c5d46e2c8ad869c74eb9698c9a2f111112a0449dd3df489cc56c614cc3698
+SHA512: 341c4d8397bb1e46d0935c4195e116605cc4dd1984c6a6afead809475919cb312d5ded42d97edc2d8096993adbe87b3c58a7414f0a1abdc51f243629ae3d8bd6
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-core
+Architecture: arm64
+Version: 2.1.16-1
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6
+Filename: pool/trixie/demo-core_2.1.16-1_arm64.deb
+Size: 3296
+MD5sum: ba8a9b5ec0d9c646c239b9080a8df6da
+SHA1: 78a5e33ef66e4d8972bdd0f73c495863409c79ba
+SHA256: 9e4d1c5d195ef6c28d1eda37f784eed7a255009208653dea833cd2c15d00bdff
+SHA512: 83d7f7c86e9e9adc8435d4c4e8cdebbbdd165a507f0ffc35e4ffd71471691834125cfddefd0c9c0f98bf5c72fd401679378833aa361cb72a4dd6cd63211d40a8
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-join
+Architecture: arm64
+Version: 2.1.4-1
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core, demo-app, demo-side
+Filename: pool/trixie/demo-join_2.1.4-1_arm64.deb
+Size: 3068
+MD5sum: e60cfe2b559d591b97692a1e804a6340
+SHA1: 2cbd13aee0df7756b73f8e3cb6bc4b0c0f72d678
+SHA256: 6cdb8e80e1fbcdeba20943cb016b410cc46adbb8e3cb0c58d4f7701a623afde6
+SHA512: 9d6b476b064466a92b84917fd3474b48623103cf6299bc53465dc9c651cc649f42fd8962e3cde7c9c590db6fd4c46b082a0623d966f164bd0f2a8141c1484d3c
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-join
+Architecture: arm64
+Version: 2.1.4-2
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core, demo-app, demo-side
+Filename: pool/trixie/demo-join_2.1.4-2_arm64.deb
+Size: 3080
+MD5sum: 413a1a6f687fca3e6aaa9111999aa816
+SHA1: ed97411c7bc263021aa1ff6fcda807b25834ba12
+SHA256: 9edea848247da330e8a2dfc32a5bbf01c9b33617afa84eda756e361d53550fd0
+SHA512: e049fb02e1415bace6fe31c8043da24927b4af0e811e8a6cd31c7af064e96b55954cabe7b6f4951d39760c7ac246e4092066816ea77c8d165d2f54a41e70dbea
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-join
+Architecture: arm64
+Version: 2.1.4-3
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core, demo-app, demo-side
+Filename: pool/trixie/demo-join_2.1.4-3_arm64.deb
+Size: 3068
+MD5sum: bec6e7cfed391fa05ff825a7700848c7
+SHA1: aa9278a1e2bdcc5dd398cb5ee18d06aa847e2704
+SHA256: 7c55768bf6d22a3153bc6ad1f2bcc8608fb052c96a01cf49eb9e72be617fcc4b
+SHA512: 95c109ecdf5f9640c1596b7fd2bf8bcdcde610ecbfa5943bc8f565897f32f96b6444365d9fe2d795c2b13e89e7905b24b0ac5dbc388eb7f259bd58d364891a05
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-join
+Architecture: arm64
+Version: 2.1.4-471
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core, demo-app, demo-side
+Filename: pool/trixie/demo-join_2.1.4-471_arm64.deb
+Size: 3072
+MD5sum: c971238ab7f6ca30e849ff841962d9c6
+SHA1: a1bd7279f6276ad5a15813c3b66bff197b7d7590
+SHA256: 3d91fd38c04588117e8eb051c7f9458626a692584dc3a5513cc6805527ebaa00
+SHA512: c0131f71762a03f438d955ec83340626bc7302158d01eafd40eb1cecb9057112b16f79d9e5bfef98288c89428f500d15817d3ab333c2628d129f1c2a6e6cd87f
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-join
+Architecture: arm64
+Version: 2.1.4-4
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core, demo-app, demo-side
+Filename: pool/trixie/demo-join_2.1.4-4_arm64.deb
+Size: 3088
+MD5sum: 32fc0f395fa2aacf37070d159a3bab95
+SHA1: 971d144b16a265f0912895edfccf1af96d85be10
+SHA256: 01d48f8ae03ef21c42555ec162c3707c97b22d2d76a1ce9800d6ba824b4ab4ef
+SHA512: 9b18cff3721498cfa08efa3cb38947a489fb5a58ace923fddf2cfabe20423543b0e684bed62f6c936928f3ac5cc1ef165f88d1dff849228d4a5fae0b8eb4a84c
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-side
+Architecture: arm64
+Version: 2.1.0-1
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-side_2.1.0-1_arm64.deb
+Size: 3380
+MD5sum: 075eae083da3807a0733d40eb29d6a53
+SHA1: 157fcdae6b0cfed9c018e8f328a3f43abc1cecda
+SHA256: 071e8cd308daf03ae038d4e18dcd39fd55229f558be7f8e0d69d4618829fa89f
+SHA512: 589d43d34d7d77452a9c4f7ff9cfe3c9cb5391bad3cac1ed9f9720c754651278a30d63287279cdb1c1d73576c11a7f1e80ff6eb78dec3a59fd753fe8717c8932
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-side
+Architecture: arm64
+Version: 2.1.0-2
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-side_2.1.0-2_arm64.deb
+Size: 3380
+MD5sum: d48a27bdddac6f2dc74dfa434f07d0aa
+SHA1: 04751bc064f36d26a6f8d8f46f867d542e808101
+SHA256: c4d9b61f843130d10b65985ff0e6e9634e9d30da77a8526f33015901ea466b3e
+SHA512: f67f7c41e187d6b96bdbe2530d7f5ee9e1b75920de5c4ceb0d127170c482c8e39beda49c488bf2d44b8b73c0c74cabea7629ab72f1de8dce25aa6733aa57290e
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-side
+Architecture: arm64
+Version: 2.1.0-3
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-side_2.1.0-3_arm64.deb
+Size: 3380
+MD5sum: c72f0ef58626550431d10b107e687db4
+SHA1: b0a64fa294020d0441080ef473c86b399af73b0c
+SHA256: 07ef15a64e7c852cda3de9bff6f39c6c87e9f4d607c4ad9f8d6b6906eff034c2
+SHA512: 0af44f46c6ad22e877c162f708cc477cdc47cd17f264140f34fc9c67dba0528a2cde774fe2f8e511e12cfa3fb7841bde6549119ac3a6786ee3d27b77b4391641
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-side
+Architecture: arm64
+Version: 2.1.0-422
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-side_2.1.0-422_arm64.deb
+Size: 3376
+MD5sum: 928dbc6419c60900cea2e8d0a0628711
+SHA1: 341321d2a6d69dbee8d1a158c0ff85c4cfbc114f
+SHA256: a373c9ba8d67ea31d4a5ef45d1b3b88e5604bab3cee97c11add3d62a914d4da8
+SHA512: 1ce86091d3995f731affe6348c15c24e22211d34becc040afd4f00cd27dee3706225f11aef0948cab8568ad814d7a9d914021dd2519d5b97386e1447720dfb9d
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-side
+Architecture: arm64
+Version: 2.1.0-466
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-side_2.1.0-466_arm64.deb
+Size: 3380
+MD5sum: 7f96c16042cb117c560cb4f17d9e95cc
+SHA1: 49cef77e0127505203d05dcb921b6e2e1cf610a5
+SHA256: 227f88ff811df5e2d1375256be21f70b88e3a6e8cb6353200195fa127249455c
+SHA512: 5bad6e1057f00c0245abd6dd6e321016305181829358aff71cda97ebbe464f390bf1666a06f8ecef2bf299a3ab7d1a072f4a63fff2da93dc3bfee1090ecd4ae4
+Description: Graph-driven package pipeline acceptance project
+
+Package: demo-side
+Architecture: arm64
+Version: 2.1.0-4
+Priority: optional
+Section: devel
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Depends: libc6, demo-core
+Filename: pool/trixie/demo-side_2.1.0-4_arm64.deb
+Size: 3376
+MD5sum: 91253e2f4176b8ec175ec1b6fd252eed
+SHA1: 0f2a495252fd0b5bb0bb3c4134c2dbca994ce107
+SHA256: bd699ca8606ed1c916914fd99d3791eaf95c4030f25a29597ebda741daeb2e64
+SHA512: 0dab2fd932e3672499c12754351bb1a05be20efbfa268419326be573c9adf0c53fc5a5b439c715baf7826db6d56132a477b2a539043e51a692304a92c9dbd49f
+Description: Graph-driven package pipeline acceptance project
+

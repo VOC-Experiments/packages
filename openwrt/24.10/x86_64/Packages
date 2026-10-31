@@ -1,0 +1,832 @@
+Package: demo-app
+Version: 1.0.0-r13
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.0.0-r13_x86_64.ipk
+Size: 1730
+SHA256sum: 7e0122f8e9f5d468d4c66765220d4a756e46e612c0e0a154b0837134309b2a5f
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.0.0-r6
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.0.0-r6_x86_64.ipk
+Size: 1726
+SHA256sum: 18127dc789d0989501a44f1b517797f9c9b607a448a5dc465ffbf5f742b39b58
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.1.0-r17
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.1.0-r17_x86_64.ipk
+Size: 1732
+SHA256sum: 30340f57a673ca998d706b3c9a772ea76a1be162eced6d6377fb13572427e21b
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.2.0-r20
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.2.0-r20_x86_64.ipk
+Size: 1730
+SHA256sum: 82ec4d63fa98bbd63e4c74ccf51a1efc67366a164edc69a351e52101c083c77c
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.2.0-r26
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.2.0-r26_x86_64.ipk
+Size: 1732
+SHA256sum: d80fab085dd5113e70f8fadd2f01f5d203bfbd55787b0999c31af391bd7819ff
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.2.9-r29
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.2.9-r29_x86_64.ipk
+Size: 1746
+SHA256sum: 643431c2b0db364f00d7a2ac9d2a79e3faa927d5be49d8195a7070c25fc80d4d
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.3.0-r27
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.3.0-r27_x86_64.ipk
+Size: 1732
+SHA256sum: bfee509460f5eaff3137f4d3905150279bd047f70d9dd862e9cdab624d57b968
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.3.0-r28
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.3.0-r28_x86_64.ipk
+Size: 1729
+SHA256sum: a5a14d00e5818670359f3839e6cc172c73f5be8f69d0f89e75571749f1fa8942
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.3.0-r30
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.3.0-r30_x86_64.ipk
+Size: 1732
+SHA256sum: 5cb7b8cf390d29085092b7c30e421a5614b64bf7b73b39df30ae538220222707
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.3.0-r31
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-app_1.3.0-r31_x86_64.ipk
+Size: 1733
+SHA256sum: 3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 2.1.0-r2
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-app_2.1.0-r2_x86_64.ipk
+Size: 3839
+SHA256sum: a40a086c6c57cba3dc6f49bed580e8a2993e3728762a2822348b2dfe10fd9042
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-app
+Version: 2.1.0-r3
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-app_2.1.0-r3_x86_64.ipk
+Size: 3843
+SHA256sum: 2f2bb5804647bc1406201d821b0b91b46c791e01f59ec9aed2af8b638e333890
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-app
+Version: 2.1.0-r419
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-app_2.1.0-r419_x86_64.ipk
+Size: 3838
+SHA256sum: 49bb5fac050814011e16375ac741dc0118f2a3965011c5afbf44498a51ccc1cd
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-app
+Version: 2.1.0-r463
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-app_2.1.0-r463_x86_64.ipk
+Size: 3845
+SHA256sum: c46e4969f868c360246991d3d32f6d6f94235d6531b402ca22531d7f0a460e1e
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-app
+Version: 2.1.0-r4
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-app_2.1.0-r4_x86_64.ipk
+Size: 3839
+SHA256sum: 21b063ad0d71c8d847d632f794a63e3662d6b723efffe2c93d652cd8ac47533d
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-app
+Version: 2.1.0-r5
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-app_2.1.0-r5_x86_64.ipk
+Size: 3840
+SHA256sum: 22e040653dec8f4295f8a063838fe587d8b09d20567797c6fc93bfdfb88662e8
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-core
+Version: 0.9.0-r13
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_0.9.0-r13_x86_64.ipk
+Size: 2244
+SHA256sum: 53fdc12d5f3b51b10c98348798d3036fedb439cc9fed860b83176cd898cde0de
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.0.0-r5
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.0.0-r5_x86_64.ipk
+Size: 2240
+SHA256sum: 43314a87a880dec34859c0cdb366e5684ca4462ae62fe6c2eb8dfc803576b308
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.0.0-r6
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.0.0-r6_x86_64.ipk
+Size: 2240
+SHA256sum: 00c59a57067051752dc51397e0bc07ed1a6efabcd1a06560253a909f4ace372a
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.1.0-r10
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.1.0-r10_x86_64.ipk
+Size: 2242
+SHA256sum: 34eab9d4ce921013c867f89cb5c89209875ff90e7b7ec33567094f19bb0706ea
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.1.0-r12
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.1.0-r12_x86_64.ipk
+Size: 2234
+SHA256sum: 21b468bb67cabc8a3cd6c5a01a5a6f32ed0e811b395518e310e9ea98dac8792e
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.1.0-r15
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.1.0-r15_x86_64.ipk
+Size: 2240
+SHA256sum: 3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.1.0-r7
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.1.0-r7_x86_64.ipk
+Size: 2240
+SHA256sum: 0928b519aa59767eb8c1d6c340915ffe1ed776f8e8a19d3ce4a58ffcf6bfb7b7
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.1.0-r9
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-core_1.1.0-r9_x86_64.ipk
+Size: 2240
+SHA256sum: 235219d094f2049164120134d6d56ed97b471734e652a1e015f2abfeeb93073c
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 2.1.11-r350
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core_2.1.11-r350_x86_64.ipk
+Size: 4222
+SHA256sum: 0c361da492280a789300d07cece406a2cad6ef96753926b6146e7a5ed4028d9a
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
+Package: demo-core
+Version: 2.1.12-r414
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core_2.1.12-r414_x86_64.ipk
+Size: 4220
+SHA256sum: e8b6a87f8a76686086cbee732a70766a6a5d57ca613d813490dcd4984fe1d883
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
+Package: demo-core
+Version: 2.1.13-r2
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core_2.1.13-r2_x86_64.ipk
+Size: 4220
+SHA256sum: 2a0de34cab75554bd8002100c841f8caedac83b2fb22f2cab7af4d95631cf6d4
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
+Package: demo-core
+Version: 2.1.13-r458
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core_2.1.13-r458_x86_64.ipk
+Size: 4218
+SHA256sum: be412a81fc61bfaf30cff10cedad54efcb52817c1cad0823b2ca4d5f1c35aed5
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
+Package: demo-core
+Version: 2.1.14-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core_2.1.14-r1_x86_64.ipk
+Size: 4219
+SHA256sum: 53a4a0b71232d67ddf8a3c62279f0ab31b27da536ce1e97abfa610e55378fc10
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
+Package: demo-core
+Version: 2.1.15-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core_2.1.15-r1_x86_64.ipk
+Size: 4222
+SHA256sum: b5755bf2605934f1f73fe688c372c446759bb94f1b61a4563b872c6f200ae5f7
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
+Package: demo-core
+Version: 2.1.16-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core_2.1.16-r1_x86_64.ipk
+Size: 4222
+SHA256sum: eb672544f25b73e38409f9f0a4e923bb016cf02642bff6598934657a7508c000
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
+Package: demo-join
+Version: 1.0.0-r4
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.0.0-r4_x86_64.ipk
+Size: 1784
+SHA256sum: 9b6b15ef505baccff4ca01f26a1652febd2ad5fb84902f270937eb7d73c2a544
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r12
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r12_x86_64.ipk
+Size: 1780
+SHA256sum: 455da4ca803103db41b51b40ae8e9d838543857fc5d9d323fc86611d7d905b7c
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r20
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r20_x86_64.ipk
+Size: 1784
+SHA256sum: c18a5352696fa2bb361d2e312d1da148d927d9c7e9d6ce21bd6b42963ba18da6
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r28
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r28_x86_64.ipk
+Size: 1779
+SHA256sum: d24c7590dd167685e8d591d60e38626e92e06cb2e97d8a9a3d8cd44700ec3a19
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r29
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r29_x86_64.ipk
+Size: 1785
+SHA256sum: 784ebcf6dbe00cbc657c58d587317a677fb83425f94858305693ea790a864493
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r38
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r38_x86_64.ipk
+Size: 1778
+SHA256sum: 6c164f9f90ea6203a5334fca299aec69069e25aa7e40eb52d3e63587de60ef44
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r39
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r39_x86_64.ipk
+Size: 1785
+SHA256sum: f94f493ea041ccdc9b5f31a267d5846d12474692065778178c7d4780b52172bb
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r7
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.1.0-r7_x86_64.ipk
+Size: 1784
+SHA256sum: 50e454e4acf1c1a3fe1dc4859ad10dcc14946c230f038416e745ab926031e19c
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.2.0-r40
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.2.0-r40_x86_64.ipk
+Size: 1781
+SHA256sum: 3c2f78a9d345a34afc4a0a7b95f4c42aeead84ef6ccfdb2578343dd30e607646
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.2.0-r41
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.2.0-r41_x86_64.ipk
+Size: 1783
+SHA256sum: c5c9bddb085fe1b154889ee0d2359ef6e269308613e7e7550cad9255d1e1061e
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.2.0-r42
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 20480
+Filename: demo-join_1.2.0-r42_x86_64.ipk
+Size: 1781
+SHA256sum: 7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 2.1.4-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-join_2.1.4-r1_x86_64.ipk
+Size: 3930
+SHA256sum: 37cb89cc8ee40c341cba62e09e51abe7de0b72d5c2a59d1739ce4f8932d6e9cc
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core, demo-app, demo-side
+
+Package: demo-join
+Version: 2.1.4-r2
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-join_2.1.4-r2_x86_64.ipk
+Size: 3931
+SHA256sum: bd0d9e755e566f0efe859236e505e16901857143a5794b61082aba421c39f000
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core, demo-app, demo-side
+
+Package: demo-join
+Version: 2.1.4-r3
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-join_2.1.4-r3_x86_64.ipk
+Size: 3932
+SHA256sum: a69f1c1ff2062162f452e3adc389641347b9c6e758040c504154dfeaaa75fcac
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core, demo-app, demo-side
+
+Package: demo-join
+Version: 2.1.4-r429
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-join_2.1.4-r429_x86_64.ipk
+Size: 3937
+SHA256sum: 2488ceaedca99401acf58a1f44b0d217097d3ae486a3912a0b2968544bfa4704
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core, demo-app, demo-side
+
+Package: demo-side
+Version: 1.0.0-r1
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.0.0-r1_x86_64.ipk
+Size: 2271
+SHA256sum: e620af01a0312a032e9e37bbb4be03b6a045f263de8c8735c91d36d37bc274d5
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.1.0-r6
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.1.0-r6_x86_64.ipk
+Size: 2271
+SHA256sum: ac4dfb16a220fa5d1a45b76b3e9022c36e1eb3bc7c3cba6b28da5c406b87f740
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.2.0-r11
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.2.0-r11_x86_64.ipk
+Size: 2274
+SHA256sum: b5fd506f7786e134a7507884b27b21b7dae8132ad5eb88c96d11775b7afb767d
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.3.0-r13
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.3.0-r13_x86_64.ipk
+Size: 2274
+SHA256sum: 99631ec9d3fa25eaae2669331c0b713a63b18b81259d3d7b568f6bd0d1eb7015
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.3.0-r18
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.3.0-r18_x86_64.ipk
+Size: 2275
+SHA256sum: 269e3e0c3ec6febafbc8f6a4a64600ecb503170c1bcdfd2e3db47bcda966d1c8
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.3.0-r19
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.3.0-r19_x86_64.ipk
+Size: 2272
+SHA256sum: 8a3677677d29ec556b90882d4b8529ca5d2cf97a13af63e1663f58547032bc9d
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.3.0-r20
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.3.0-r20_x86_64.ipk
+Size: 2273
+SHA256sum: 6bc08dc2ee4c7af4418b88ccd366779ca14db122075539f83e0590f4bdb3e39a
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.4.0-r22
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.4.0-r22_x86_64.ipk
+Size: 2272
+SHA256sum: 3564a7a5c09e1589a09a44c13f458c704e8090691fadf06f242cd46319584606
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.4.0-r23
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: demo-side_1.4.0-r23_x86_64.ipk
+Size: 2280
+SHA256sum: e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 2.1.0-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-side_2.1.0-r1_x86_64.ipk
+Size: 4333
+SHA256sum: a7002738bb8df1cfdf94b811316c3fdb9b6b18cee5bce6e4dbaa5adea2a73fdb
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-side
+Version: 2.1.0-r2
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-side_2.1.0-r2_x86_64.ipk
+Size: 4330
+SHA256sum: a771f6a5601fe54ff7f63a3d969bca0ed0e04ac0c51b1ecd6f1fadbb22112383
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-side
+Version: 2.1.0-r3
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-side_2.1.0-r3_x86_64.ipk
+Size: 4333
+SHA256sum: 6a360a39945400277e850bc9bc9c2afdee8e513c6dbc27cb8eeb0d28a8fce004
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-side
+Version: 2.1.0-r424
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-side_2.1.0-r424_x86_64.ipk
+Size: 4327
+SHA256sum: d0d02b897e811f5b9f9726be3cfb806f6aa01a63456dcaf80534a6ba91e52e11
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-side
+Version: 2.1.0-r468
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-side_2.1.0-r468_x86_64.ipk
+Size: 4326
+SHA256sum: 3cbc7aba81b70996c9054e7bc6a082f7fc34b533905567411ace201521c5986e
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-side
+Version: 2.1.0-r4
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-side_2.1.0-r4_x86_64.ipk
+Size: 4326
+SHA256sum: 8d0e90c6a230aa5c018736e5f2aa7e87274af107f9a430cfdf13183dffdd7312
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-app
+Version: 2.1.0-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: ipk/ac4a0405d2eea821b06f93c14ba13ffa90ad0457648903df7dde02570027ab21/demo-app-2.1.0-r1.ipk
+Size: 3838
+SHA256sum: a458f900506ee07a532239135b3eec201aeb938a0d916461821c25484dde5684
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-core
+Version: 2.1.13-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: ipk/ac4a0405d2eea821b06f93c14ba13ffa90ad0457648903df7dde02570027ab21/demo-core-2.1.13-r1.ipk
+Size: 4220
+SHA256sum: 14754760d9fd727316414d8a747d11c270a06f7aded0e22ae8a9cd1dbe5babe5
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+
