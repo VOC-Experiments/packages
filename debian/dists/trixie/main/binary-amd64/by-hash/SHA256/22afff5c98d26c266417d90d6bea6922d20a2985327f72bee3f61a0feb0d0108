@@ -1,0 +1,25 @@
+Package: demo-app
+Architecture: amd64
+Version: 1.0.0-4~trixie
+Maintainer: VOC Experiments <ci@example.invalid>
+Depends: demo-core
+Filename: pool/trixie/demo-app_1.0.0-4~trixie_amd64.deb
+Size: 2668
+MD5sum: 4292b794bccbcf4d19f50e69a9cbc78a
+SHA1: 4722c3dd63a6d1aebb1b6009978c8ff77f521d3d
+SHA256: c638b37ae3d3aad4b5870bae7f5186526494bd6f865cb1e6e9625f5492402c4f
+SHA512: 6c5534fc55447fc36daff6eaa84685c1685bbf114bc4b677723986a53387fdf1a634374e703afb940f051ece8de0f118d6d8f2dc6033bde357a9087f6d16d61d
+Description: Disposable canonical CI integration experiment
+
+Package: demo-core
+Architecture: amd64
+Version: 1.0.0-5~trixie
+Maintainer: VOC Experiments <ci@example.invalid>
+Filename: pool/trixie/demo-core_1.0.0-5~trixie_amd64.deb
+Size: 3352
+MD5sum: 2d8c956556470f9e00f64e138f854a2b
+SHA1: 9686d94bb00d3f880e8f2c8407e1e2cffaed7d19
+SHA256: ebdb4b5defdb71a2d167c297ee2f9da236e40f62fd8f91b1a08553c36b713114
+SHA512: ad96a8a7ceef3dc7c19083e64903555d292dbb480a8d05fdff14a8836fc600de06ca5d89b67c350a1bca0f783e94f7b02780ff58f1c61172f4d1b569ae4eca7f
+Description: Disposable canonical CI integration experiment
+

@@ -1,0 +1,104 @@
+
+
+
+<a id="banner"></a>
+
+<h1>Demo Core package status · latest release v2.1.13</h1>
+<p><a href="README.md#banner">All projects</a></p>
+<h2 id="distributions">Distributions</h2>
+<p>
+<a href="#debian-trixie">debian trixie</a> ·
+
+<a href="#fedora-43">fedora 43</a> ·
+
+<a href="#openwrt-2410">openwrt 24.10</a> ·
+
+<a href="#openwrt-2512">openwrt 25.12</a> ·
+</p>
+
+<h2 id="debian-trixie">debian trixie</h2>
+<table><thead><tr><th>Architecture</th><th>Available</th><th>Published (UTC)</th><th>In build</th><th>Links</th></tr></thead><tbody>
+
+
+
+
+<tr><td><a id="a79e917dc6c78a02ab49409f29070f0634806477f790ab431f4d82e24fefc4ae"></a><a id="24d400acd610156cea275d1f904ea27afd04cb03c4a4890f394d6090dd926078"></a><a id="e8fcecb409ae598e08e0a463bcfcaa3d84b294e8d21cdbe19b85bd1d108fa259"></a><code>amd64</code></td>
+<td><code>2.1.13-455</code></td>
+<td>2026-10-30 18:23</td>
+<td>—</td><td>
+
+<a href="https://github.com/VOC-Experiments/demo-core/actions/runs/41106287965/job/124236878097">Build log</a> · 
+<a href="../debian/pool/trixie/">Packages</a>
+</td></tr>
+
+
+
+
+
+<tr><td><a id="df285311fe18419bd25bf6503ab17a7a1eb06602bd67d2a24de39d42ab8ee12d"></a><a id="659556cb0198013c466204604717ec5e8e70bd4ee56b140e483a541f82057021"></a><a id="b96dfae583d6d466c1c350b5a388394b64fb0c8b01242f4d730898b6a0260757"></a><code>arm64</code></td>
+<td><code>2.1.13-456</code></td>
+<td>2026-10-30 18:23</td>
+<td>—</td><td>
+
+<a href="https://github.com/VOC-Experiments/demo-core/actions/runs/41106287521/job/124236875964">Build log</a> · 
+<a href="../debian/pool/trixie/">Packages</a>
+</td></tr>
+
+</tbody></table><p><a href="#distributions">↑ Distributions</a></p>
+
+<h2 id="fedora-43">fedora 43</h2>
+<table><thead><tr><th>Architecture</th><th>Available</th><th>Published (UTC)</th><th>In build</th><th>Links</th></tr></thead><tbody>
+
+
+
+
+<tr><td><a id="4ae4898ae080aa67c5f4cd4e42aec142ac915f933e413f2f67ad65ec8be6b2cf"></a><a id="8d6422c2382f0bb19e3ec08d1f9a4c2e393f446cad7c31e33bed7ec28abce512"></a><a id="f69d2d8e4ead6992177e1f8675e14a39e093ff38ccfe1343ecda477c24284810"></a><code>x86_64</code></td>
+<td><code>2.1.13-457</code></td>
+<td>2026-10-30 18:24</td>
+<td>—</td><td>
+
+<a href="https://github.com/VOC-Experiments/demo-core/actions/runs/41106289486/job/124236885111">Build log</a> · 
+<a href="../fedora/43/x86_64/Packages/">Packages</a>
+</td></tr>
+
+</tbody></table><p><a href="#distributions">↑ Distributions</a></p>
+
+<h2 id="openwrt-2410">openwrt 24.10</h2>
+<table><thead><tr><th>Architecture</th><th>Available</th><th>Published (UTC)</th><th>In build</th><th>Links</th></tr></thead><tbody>
+
+
+
+
+<tr><td><a id="0fdeb5f39e88e1c62f7fbaabb93a7618ce51418d4e490885b267fabfb953f470"></a><a id="4b37fd8ef1213a99f6af584214286541f87ed5adb8ec461d886177a0e1d2c49a"></a><a id="32042896b2525d4e86ca52531a2b9be8ad193f88e7e308ccde53c4eb40f5a2e7"></a><code>x86_64</code></td>
+<td><code>2.1.13-r458</code></td>
+<td>2026-10-30 18:29</td>
+<td>—</td><td>
+
+<a href="https://github.com/VOC-Experiments/demo-core/actions/runs/41106290395/job/124236890356">Build log</a> · 
+<a href="../openwrt/24.10/x86_64/">Packages</a>
+</td></tr>
+
+</tbody></table><p><a href="#distributions">↑ Distributions</a></p>
+
+<h2 id="openwrt-2512">openwrt 25.12</h2>
+<table><thead><tr><th>Architecture</th><th>Available</th><th>Published (UTC)</th><th>In build</th><th>Links</th></tr></thead><tbody>
+
+
+
+
+<tr><td><a id="26dc15620251de2a9cfb4727d435a136c460f77f83c8c2ae44f11bce55097562"></a><a id="7d434977a41f3c8ec74084f274b076c6126052ef5182aaa845604da8a8d16d41"></a><a id="5a9d7346b0f6dd7bd1e9d73bc5fd21d13e0318171049de090f714981c50fc235"></a><a id="1a7d0b931a08306be8ce1879fefaf54d13cd1b7c9fa11f7d5ea5bf84a5c2d89a"></a><code>x86_64</code></td>
+<td><code>2.1.13-r459</code></td>
+<td>2026-10-30 18:29</td>
+<td>—</td><td>
+
+<a href="https://github.com/VOC-Experiments/demo-core/actions/runs/41106291093/job/124236896264">Build log</a> · 
+<a href="../openwrt/25.12/x86_64/">Packages</a>
+</td></tr>
+
+</tbody></table><p><a href="#distributions">↑ Distributions</a></p>
+
+
+<p>Waiting: prerequisites are not all published. Building: assigned source work. Publishing: assigned feed work.
+Failed: explicit retry required. Superseded: retained waiting work replaced by a newer automatic selection.
+—: no recorded value. Publication times are the controller's first successful verification in UTC.</p>
+

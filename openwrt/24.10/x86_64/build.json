@@ -1,0 +1,1383 @@
+{
+  "arch": "x86_64",
+  "context": {
+    "build_project": "demo-join",
+    "captured_at": "2026-10-23T22:28:50Z",
+    "cascade": "40028023012",
+    "cause": "dependent",
+    "contract": 3,
+    "dependency_commit": "7e27c37694f3f06ef0c9b0fe550cb021fc96e854",
+    "destination": "VOC-Experiments/packages",
+    "packages_commit": "4a26f5a320b67eb8cac8a1583d2e4f6f94f80edd",
+    "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+    "release_project": "demo-join",
+    "requested_at": "",
+    "run_id": "40033807457",
+    "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40033807457",
+    "source_tags": {
+      "demo-app": "v1.3.0",
+      "demo-core": "v1.1.0",
+      "demo-join": "v1.2.0",
+      "demo-side": "v1.4.0"
+    },
+    "tag": "v1.2.0",
+    "versions": {
+      "demo-app": "1.3.0",
+      "demo-core": "1.1.0",
+      "demo-join": "1.2.0",
+      "demo-side": "1.4.0"
+    }
+  },
+  "files": {
+    "Packages": "9126748ff4177e62b66710d1ce9f4a535de6dd51f0e293da7f0947c89cc55f5b",
+    "Packages.gz": "e2812cdd6d185dbe241ae8378f236a8180c1f8d66bb5147106684803ba25d444",
+    "Packages.sig": "6efaec93077a9ddd9a52a609234f26e873d3d3d5037007ef7cd58abd193ff51c",
+    "demo-app-openwrt-build-deps-1.0.0-r13.tar.zst": "0c49d909ad71b3670d38063e16e94c55e6e0143cd0b8fc1ed93b5841a3b8583e",
+    "demo-app-openwrt-build-deps-1.1.0-r17.tar.zst": "b816caad732965036ce7fc937fdee1ffd5ed4ec66c005e9a00052c8afd42c484",
+    "demo-app-openwrt-build-deps-1.2.0-r26.tar.zst": "e6cac0475c983a7e36800e59f370e3d62926256dce43fcbd911c2f1b443035a5",
+    "demo-app-openwrt-build-deps-1.2.9-r29.tar.zst": "50e9b1d6849fd3a9652aaf855b76b0b190057e3182f9d545e79d3d87d014af04",
+    "demo-app-openwrt-build-deps-1.3.0-r31.tar.zst": "112cc165c29f08080f5b71f6ab19c99e0019abfc492fcda50d4a6f3dc84be64a",
+    "demo-app_1.0.0-r13_x86_64.ipk": "7e0122f8e9f5d468d4c66765220d4a756e46e612c0e0a154b0837134309b2a5f",
+    "demo-app_1.1.0-r17_x86_64.ipk": "30340f57a673ca998d706b3c9a772ea76a1be162eced6d6377fb13572427e21b",
+    "demo-app_1.2.0-r26_x86_64.ipk": "d80fab085dd5113e70f8fadd2f01f5d203bfbd55787b0999c31af391bd7819ff",
+    "demo-app_1.2.9-r29_x86_64.ipk": "643431c2b0db364f00d7a2ac9d2a79e3faa927d5be49d8195a7070c25fc80d4d",
+    "demo-app_1.3.0-r31_x86_64.ipk": "3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8",
+    "demo-core-openwrt-build-deps-0.9.0-r13.tar.zst": "9df9d52667d7a2b5f2788ca30901b2e20f449a42ec320ac2efb5ca187900b5df",
+    "demo-core-openwrt-build-deps-1.0.0-r6.tar.zst": "4c0ae23d293003250856faff46876e2f1fdb8f77e4fdfc20787c15732d5c5803",
+    "demo-core-openwrt-build-deps-1.1.0-r15.tar.zst": "4ed322f23557f46103b2609171093f15a7b4881315d18856dbef8afd6d4c13e2",
+    "demo-core_0.9.0-r13_x86_64.ipk": "53fdc12d5f3b51b10c98348798d3036fedb439cc9fed860b83176cd898cde0de",
+    "demo-core_1.0.0-r6_x86_64.ipk": "00c59a57067051752dc51397e0bc07ed1a6efabcd1a06560253a909f4ace372a",
+    "demo-core_1.1.0-r15_x86_64.ipk": "3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34",
+    "demo-join-openwrt-build-deps-1.0.0-r4.tar.zst": "e89729ba53a12dae6eb7de49f2c11092c6cd4613a62ad13c607436ec28eb59ef",
+    "demo-join-openwrt-build-deps-1.1.0-r39.tar.zst": "239ca6b476ca2cd712cd1cf72eea537964ce9d2c138ce2fd47d95685e9055706",
+    "demo-join-openwrt-build-deps-1.2.0-r42.tar.zst": "1430cbec95ea68f251768dc7af1efd99fd3b595f4c4028661b98d51b6ca3a03d",
+    "demo-join_1.0.0-r4_x86_64.ipk": "9b6b15ef505baccff4ca01f26a1652febd2ad5fb84902f270937eb7d73c2a544",
+    "demo-join_1.1.0-r39_x86_64.ipk": "f94f493ea041ccdc9b5f31a267d5846d12474692065778178c7d4780b52172bb",
+    "demo-join_1.2.0-r42_x86_64.ipk": "7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044",
+    "demo-side-openwrt-build-deps-1.0.0-r1.tar.zst": "d1492f04b66d9e958a6659c4501340ef59ce3586dbb18210072dc23d50971855",
+    "demo-side-openwrt-build-deps-1.1.0-r6.tar.zst": "92e3a03a97af8a11a6857cb9711df4d9fc5db1e75e45a8385594d0a9644b643a",
+    "demo-side-openwrt-build-deps-1.2.0-r11.tar.zst": "05fc49e6e661bbb41546a1eff934413440025b1883b147b946a0a88d0f9b777d",
+    "demo-side-openwrt-build-deps-1.3.0-r20.tar.zst": "a13af43a70d26f58406b25817e641d2b46306c579adf90886686e32be04b4a7c",
+    "demo-side-openwrt-build-deps-1.4.0-r23.tar.zst": "9347a4fe758e46dfe18e8b411fae32b341e08ea3e29a7ed7249547b7bc15b45b",
+    "demo-side_1.0.0-r1_x86_64.ipk": "e620af01a0312a032e9e37bbb4be03b6a045f263de8c8735c91d36d37bc274d5",
+    "demo-side_1.1.0-r6_x86_64.ipk": "ac4dfb16a220fa5d1a45b76b3e9022c36e1eb3bc7c3cba6b28da5c406b87f740",
+    "demo-side_1.2.0-r11_x86_64.ipk": "b5fd506f7786e134a7507884b27b21b7dae8132ad5eb88c96d11775b7afb767d",
+    "demo-side_1.3.0-r20_x86_64.ipk": "6bc08dc2ee4c7af4418b88ccd366779ca14db122075539f83e0590f4bdb3e39a",
+    "demo-side_1.4.0-r23_x86_64.ipk": "e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5"
+  },
+  "packages": [
+    "demo-app",
+    "demo-core",
+    "demo-join",
+    "demo-side"
+  ],
+  "publications": {
+    "demo-app": {
+      "artifact": {
+        "digest": "sha256:94c63121bef2fe967ad051a199d439cfcbd2b7028be2a16292839fc5e83f8b31",
+        "id": 12533193840
+      },
+      "capture": "40028023012",
+      "job": 120669361384,
+      "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/40028131357/job/120669361384",
+      "publication": "83f849c975facd6e2fc5c180a35f8187c272edb3",
+      "published_at": "2026-10-23T21:42:28.560470+00:00",
+      "revision": "31",
+      "source": {
+        "attempt": 1,
+        "run": 40028131357
+      },
+      "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+      "unsigned_files": {
+        "demo-app-openwrt-build-deps-1.3.0-r31.tar.zst": "112cc165c29f08080f5b71f6ab19c99e0019abfc492fcda50d4a6f3dc84be64a",
+        "demo-app_1.3.0-r31_x86_64.ipk": "3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8"
+      }
+    },
+    "demo-core": {
+      "artifact": {
+        "digest": "sha256:4c617c76caadd77b7e7d1f22ff85bcbbc504a3912aa35e41f38cbf1ed5beb88a",
+        "id": 12531743055
+      },
+      "capture": "40023702644",
+      "job": 120654818793,
+      "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/40023812717/job/120654818793",
+      "publication": "01be9cbd069624f83f35c2b96be54e8098aa2f23",
+      "published_at": "2026-10-23T21:09:01.045174+00:00",
+      "revision": "15",
+      "source": {
+        "attempt": 1,
+        "run": 40023812717
+      },
+      "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+      "unsigned_files": {
+        "demo-core-openwrt-build-deps-1.1.0-r15.tar.zst": "4ed322f23557f46103b2609171093f15a7b4881315d18856dbef8afd6d4c13e2",
+        "demo-core_1.1.0-r15_x86_64.ipk": "3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34"
+      }
+    },
+    "demo-join": {
+      "artifact": {
+        "digest": "sha256:2e4faefefa9cfa0810d21b0ad9d074d9f4b6abbc168f7474dfd6a9962ae5c5a2",
+        "id": 12537445177
+      },
+      "capture": "40033807457",
+      "job": 120688919506,
+      "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/40034004136/job/120688919506",
+      "publication": "7e27c37694f3f06ef0c9b0fe550cb021fc96e854",
+      "published_at": "2026-10-23T22:47:24.992158+00:00",
+      "revision": "42",
+      "source": {
+        "attempt": 1,
+        "run": 40034004136
+      },
+      "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+      "unsigned_files": {
+        "demo-join-openwrt-build-deps-1.2.0-r42.tar.zst": "1430cbec95ea68f251768dc7af1efd99fd3b595f4c4028661b98d51b6ca3a03d",
+        "demo-join_1.2.0-r42_x86_64.ipk": "7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044"
+      }
+    },
+    "demo-side": {
+      "artifact": {
+        "digest": "sha256:44b278f177603040184c92c0f61eaf836268a5354f036c8e70ffa8f88329dd71",
+        "id": 12535028925
+      },
+      "capture": "40032925715",
+      "job": 120685723752,
+      "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/40033037909/job/120685723752",
+      "publication": "9af7fcbf65c3a50b6ac9072532c7375e4dc52808",
+      "published_at": "2026-10-23T22:25:29.211520+00:00",
+      "revision": "23",
+      "source": {
+        "attempt": 1,
+        "run": 40033037909
+      },
+      "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+      "unsigned_files": {
+        "demo-side-openwrt-build-deps-1.4.0-r23.tar.zst": "9347a4fe758e46dfe18e8b411fae32b341e08ea3e29a7ed7249547b7bc15b45b",
+        "demo-side_1.4.0-r23_x86_64.ipk": "e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5"
+      }
+    }
+  },
+  "published_at": "2026-10-23T22:47:24.992158+00:00",
+  "release": "24.10.8",
+  "releases": {
+    "demo-app": {
+      "v1.0.0": {
+        "context": {
+          "build_project": "demo-app",
+          "captured_at": "2026-10-22T19:08:54Z",
+          "cascade": "39836077535",
+          "cause": "dependent",
+          "contract": 3,
+          "dependency_commit": "175751d1b91ca9adc869f857fe15559d08583d06",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "78ceb82e4adf3b5ba1362a1898e36c86055bb3da",
+          "recipe_commit": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+          "release_project": "demo-app",
+          "requested_at": "",
+          "run_id": "39837439102",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39837439102",
+          "source_tags": {
+            "demo-app": "v1.0.0",
+            "demo-core": "v1.0.0"
+          },
+          "tag": "v1.0.0",
+          "versions": {
+            "demo-app": "1.0.0",
+            "demo-core": "1.0.0"
+          }
+        },
+        "files": {
+          "demo-app-openwrt-build-deps-1.0.0-r13.tar.zst": "0c49d909ad71b3670d38063e16e94c55e6e0143cd0b8fc1ed93b5841a3b8583e",
+          "demo-app_1.0.0-r13_x86_64.ipk": "7e0122f8e9f5d468d4c66765220d4a756e46e612c0e0a154b0837134309b2a5f"
+        },
+        "packages": [],
+        "publications": {
+          "demo-app": {
+            "artifact": {
+              "digest": "sha256:044930fc9a3280b5f083a5c8fc4c1353da524dff17c9dc2994a6d10f68acc37d",
+              "id": 12452046747
+            },
+            "capture": "39837439102",
+            "job": 120030724132,
+            "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/39837835665/job/120030724132",
+            "publication": "175751d1b91ca9adc869f857fe15559d08583d06",
+            "published_at": "2026-10-22T19:17:42.192362+00:00",
+            "revision": "13",
+            "source": {
+              "attempt": 1,
+              "run": 39837835665
+            },
+            "tooling": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+            "unsigned_files": {
+              "demo-app-openwrt-build-deps-1.0.0-r13.tar.zst": "0c49d909ad71b3670d38063e16e94c55e6e0143cd0b8fc1ed93b5841a3b8583e",
+              "demo-app_1.0.0-r13_x86_64.ipk": "7e0122f8e9f5d468d4c66765220d4a756e46e612c0e0a154b0837134309b2a5f"
+            }
+          }
+        },
+        "revision": "13",
+        "sources": {
+          "demo-app": {
+            "refs/tags/v1.0.0": "2016eec929e601d1348eb5cc96d89b1e3b42aad8"
+          }
+        },
+        "unsigned_files": {
+          "demo-app-openwrt-build-deps-1.0.0-r13.tar.zst": "0c49d909ad71b3670d38063e16e94c55e6e0143cd0b8fc1ed93b5841a3b8583e",
+          "demo-app_1.0.0-r13_x86_64.ipk": "7e0122f8e9f5d468d4c66765220d4a756e46e612c0e0a154b0837134309b2a5f"
+        },
+        "versions": {
+          "demo-app": "1.0.0-r13"
+        }
+      },
+      "v1.1.0": {
+        "context": {
+          "build_project": "demo-app",
+          "captured_at": "2026-10-22T21:35:34Z",
+          "cascade": "39858482792",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "9d311f056f04d95fb996eaa9ac0205d8c662fad0",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "14f68b3b0b35f66fdb9ad8f0f9fc3f7132b96b4d",
+          "recipe_commit": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+          "release_project": "demo-app",
+          "requested_at": "2026-10-22T21:35:12Z",
+          "run_id": "39858482792",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39858482792",
+          "source_tags": {
+            "demo-app": "v1.1.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.0.0",
+            "demo-side": "v1.0.0"
+          },
+          "tag": "v1.1.0",
+          "versions": {
+            "demo-app": "1.1.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.0.0",
+            "demo-side": "1.0.0"
+          }
+        },
+        "files": {
+          "demo-app-openwrt-build-deps-1.1.0-r17.tar.zst": "b816caad732965036ce7fc937fdee1ffd5ed4ec66c005e9a00052c8afd42c484",
+          "demo-app_1.1.0-r17_x86_64.ipk": "30340f57a673ca998d706b3c9a772ea76a1be162eced6d6377fb13572427e21b"
+        },
+        "packages": [
+          "demo-app"
+        ],
+        "publications": {
+          "demo-app": {
+            "artifact": {
+              "digest": "sha256:0049200d5f199c41a9b76eb9fbba837f100c108e3013384f3c1de3da539f23ad",
+              "id": 12461391902
+            },
+            "capture": "39858482792",
+            "job": 120107316786,
+            "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/39859818902/job/120107316786",
+            "publication": "9d311f056f04d95fb996eaa9ac0205d8c662fad0",
+            "published_at": "2026-10-22T21:50:28.275507+00:00",
+            "revision": "17",
+            "source": {
+              "attempt": 1,
+              "run": 39859818902
+            },
+            "tooling": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+            "unsigned_files": {
+              "demo-app-openwrt-build-deps-1.1.0-r17.tar.zst": "b816caad732965036ce7fc937fdee1ffd5ed4ec66c005e9a00052c8afd42c484",
+              "demo-app_1.1.0-r17_x86_64.ipk": "30340f57a673ca998d706b3c9a772ea76a1be162eced6d6377fb13572427e21b"
+            }
+          }
+        },
+        "revision": "17",
+        "sources": {
+          "demo-app": {
+            "refs/tags/v1.1.0": "cfa326469a0ce96dcd67d08c3b6d49d1f57f288c"
+          }
+        },
+        "unsigned_files": {
+          "demo-app-openwrt-build-deps-1.1.0-r17.tar.zst": "b816caad732965036ce7fc937fdee1ffd5ed4ec66c005e9a00052c8afd42c484",
+          "demo-app_1.1.0-r17_x86_64.ipk": "30340f57a673ca998d706b3c9a772ea76a1be162eced6d6377fb13572427e21b"
+        },
+        "versions": {
+          "demo-app": "1.1.0-r17"
+        }
+      },
+      "v1.2.0": {
+        "context": {
+          "build_project": "demo-app",
+          "captured_at": "2026-10-23T01:01:58Z",
+          "cascade": "39881613016",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "491e17521b2ea30bde33a651ec806a76166b82c7",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "48f2978358a6f7187f96a0bb51a110caf4ec56b2",
+          "recipe_commit": "14912606b9b89a2831cf084cbefda12a14310dfc",
+          "release_project": "demo-app",
+          "requested_at": "2026-10-23T01:01:31Z",
+          "run_id": "39881613016",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39881613016",
+          "source_tags": {
+            "demo-app": "v1.2.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.1.0",
+            "demo-side": "v1.3.0"
+          },
+          "tag": "v1.2.0",
+          "versions": {
+            "demo-app": "1.2.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.1.0",
+            "demo-side": "1.3.0"
+          }
+        },
+        "files": {
+          "demo-app-openwrt-build-deps-1.2.0-r26.tar.zst": "e6cac0475c983a7e36800e59f370e3d62926256dce43fcbd911c2f1b443035a5",
+          "demo-app_1.2.0-r26_x86_64.ipk": "d80fab085dd5113e70f8fadd2f01f5d203bfbd55787b0999c31af391bd7819ff"
+        },
+        "packages": [
+          "demo-app"
+        ],
+        "publications": {
+          "demo-app": {
+            "artifact": {
+              "digest": "sha256:7b4bf2b81da66c422ad34e2d877f3bc8db7ba620893e0b6780fa35d3928097b9",
+              "id": 12471081179
+            },
+            "capture": "39881613016",
+            "job": 120180369413,
+            "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/39881715518/job/120180369413",
+            "publication": "491e17521b2ea30bde33a651ec806a76166b82c7",
+            "published_at": "2026-10-23T01:05:52.424095+00:00",
+            "revision": "26",
+            "source": {
+              "attempt": 1,
+              "run": 39881715518
+            },
+            "tooling": "14912606b9b89a2831cf084cbefda12a14310dfc",
+            "unsigned_files": {
+              "demo-app-openwrt-build-deps-1.2.0-r26.tar.zst": "e6cac0475c983a7e36800e59f370e3d62926256dce43fcbd911c2f1b443035a5",
+              "demo-app_1.2.0-r26_x86_64.ipk": "d80fab085dd5113e70f8fadd2f01f5d203bfbd55787b0999c31af391bd7819ff"
+            }
+          }
+        },
+        "revision": "26",
+        "sources": {
+          "demo-app": {
+            "refs/tags/v1.2.0": "0a1c8fd4bc9112f25af21232e180c0b8a4de67bf"
+          }
+        },
+        "unsigned_files": {
+          "demo-app-openwrt-build-deps-1.2.0-r26.tar.zst": "e6cac0475c983a7e36800e59f370e3d62926256dce43fcbd911c2f1b443035a5",
+          "demo-app_1.2.0-r26_x86_64.ipk": "d80fab085dd5113e70f8fadd2f01f5d203bfbd55787b0999c31af391bd7819ff"
+        },
+        "versions": {
+          "demo-app": "1.2.0-r26"
+        }
+      },
+      "v1.2.9": {
+        "context": {
+          "build_project": "demo-app",
+          "captured_at": "2026-10-23T19:30:50Z",
+          "cascade": "40011966084",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "db10f8c7f9e97d90b09fdb4a8266e7dc0beb9914",
+          "recipe_commit": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+          "release_project": "demo-app",
+          "requested_at": "2026-10-23T19:30:20Z",
+          "run_id": "40011966084",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40011966084",
+          "source_tags": {
+            "demo-app": "v1.2.9",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.1.0",
+            "demo-side": "v1.3.0"
+          },
+          "tag": "v1.2.9",
+          "versions": {
+            "demo-app": "1.2.9",
+            "demo-core": "1.1.0",
+            "demo-join": "1.1.0",
+            "demo-side": "1.3.0"
+          }
+        },
+        "files": {
+          "demo-app-openwrt-build-deps-1.2.9-r29.tar.zst": "50e9b1d6849fd3a9652aaf855b76b0b190057e3182f9d545e79d3d87d014af04",
+          "demo-app_1.2.9-r29_x86_64.ipk": "643431c2b0db364f00d7a2ac9d2a79e3faa927d5be49d8195a7070c25fc80d4d"
+        },
+        "packages": [
+          "demo-app"
+        ],
+        "publications": {
+          "demo-app": {
+            "artifact": {
+              "digest": "sha256:16eba663821f150b49d78c8dd0c849ed0fb71e2b8cf18000d83a3f6059439aac",
+              "id": 12526174092
+            },
+            "capture": "40011966084",
+            "job": 120614940631,
+            "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/40012140561/job/120614940631",
+            "publication": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+            "published_at": "2026-10-23T19:42:21.593934+00:00",
+            "revision": "29",
+            "source": {
+              "attempt": 1,
+              "run": 40012140561
+            },
+            "tooling": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+            "unsigned_files": {
+              "demo-app-openwrt-build-deps-1.2.9-r29.tar.zst": "50e9b1d6849fd3a9652aaf855b76b0b190057e3182f9d545e79d3d87d014af04",
+              "demo-app_1.2.9-r29_x86_64.ipk": "643431c2b0db364f00d7a2ac9d2a79e3faa927d5be49d8195a7070c25fc80d4d"
+            }
+          }
+        },
+        "revision": "29",
+        "sources": {
+          "demo-app": {
+            "refs/tags/v1.2.9": "0c2763d866731155746ac3360ecae86569c41ece"
+          }
+        },
+        "unsigned_files": {
+          "demo-app-openwrt-build-deps-1.2.9-r29.tar.zst": "50e9b1d6849fd3a9652aaf855b76b0b190057e3182f9d545e79d3d87d014af04",
+          "demo-app_1.2.9-r29_x86_64.ipk": "643431c2b0db364f00d7a2ac9d2a79e3faa927d5be49d8195a7070c25fc80d4d"
+        },
+        "versions": {
+          "demo-app": "1.2.9-r29"
+        }
+      },
+      "v1.3.0": {
+        "context": {
+          "build_project": "demo-app",
+          "captured_at": "2026-10-23T21:36:53Z",
+          "cascade": "40028023012",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "83f849c975facd6e2fc5c180a35f8187c272edb3",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "136ff9048e5b6698d283b068a3cea535b8e13e04",
+          "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "release_project": "demo-app",
+          "requested_at": "2026-10-23T21:36:29Z",
+          "run_id": "40028023012",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40028023012",
+          "source_tags": {
+            "demo-app": "v1.3.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.2.0",
+            "demo-side": "v1.3.0"
+          },
+          "tag": "v1.3.0",
+          "versions": {
+            "demo-app": "1.3.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.2.0",
+            "demo-side": "1.3.0"
+          }
+        },
+        "files": {
+          "demo-app-openwrt-build-deps-1.3.0-r31.tar.zst": "112cc165c29f08080f5b71f6ab19c99e0019abfc492fcda50d4a6f3dc84be64a",
+          "demo-app_1.3.0-r31_x86_64.ipk": "3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8"
+        },
+        "packages": [
+          "demo-app"
+        ],
+        "publications": {
+          "demo-app": {
+            "artifact": {
+              "digest": "sha256:94c63121bef2fe967ad051a199d439cfcbd2b7028be2a16292839fc5e83f8b31",
+              "id": 12533193840
+            },
+            "capture": "40028023012",
+            "job": 120669361384,
+            "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/40028131357/job/120669361384",
+            "publication": "83f849c975facd6e2fc5c180a35f8187c272edb3",
+            "published_at": "2026-10-23T21:42:28.560470+00:00",
+            "revision": "31",
+            "source": {
+              "attempt": 1,
+              "run": 40028131357
+            },
+            "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+            "unsigned_files": {
+              "demo-app-openwrt-build-deps-1.3.0-r31.tar.zst": "112cc165c29f08080f5b71f6ab19c99e0019abfc492fcda50d4a6f3dc84be64a",
+              "demo-app_1.3.0-r31_x86_64.ipk": "3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8"
+            }
+          }
+        },
+        "revision": "31",
+        "sources": {
+          "demo-app": {
+            "refs/tags/v1.3.0": "d979bd6940b19ba9774cb2d510c2ec62236d3211"
+          }
+        },
+        "unsigned_files": {
+          "demo-app-openwrt-build-deps-1.3.0-r31.tar.zst": "112cc165c29f08080f5b71f6ab19c99e0019abfc492fcda50d4a6f3dc84be64a",
+          "demo-app_1.3.0-r31_x86_64.ipk": "3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8"
+        },
+        "versions": {
+          "demo-app": "1.3.0-r31"
+        }
+      }
+    },
+    "demo-core": {
+      "v0.9.0": {
+        "context": {
+          "build_project": "demo-core",
+          "captured_at": "2026-10-23T19:30:38Z",
+          "cascade": "40011937106",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "f8d7649a319cdaf2f1776b7f2f026481cafc4d9c",
+          "recipe_commit": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+          "release_project": "demo-core",
+          "requested_at": "2026-10-23T19:30:12Z",
+          "run_id": "40011937106",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40011937106",
+          "source_tags": {
+            "demo-app": "v1.3.0",
+            "demo-core": "v0.9.0",
+            "demo-join": "v1.1.0",
+            "demo-side": "v1.3.0"
+          },
+          "tag": "v0.9.0",
+          "versions": {
+            "demo-app": "1.3.0",
+            "demo-core": "0.9.0",
+            "demo-join": "1.1.0",
+            "demo-side": "1.3.0"
+          }
+        },
+        "files": {
+          "demo-core-openwrt-build-deps-0.9.0-r13.tar.zst": "9df9d52667d7a2b5f2788ca30901b2e20f449a42ec320ac2efb5ca187900b5df",
+          "demo-core_0.9.0-r13_x86_64.ipk": "53fdc12d5f3b51b10c98348798d3036fedb439cc9fed860b83176cd898cde0de"
+        },
+        "packages": [
+          "demo-core"
+        ],
+        "publications": {
+          "demo-core": {
+            "artifact": {
+              "digest": "sha256:c0655629bae1af85290ff5aa1b2b1f8dd9a9d0378cb6ea3b7239ac9c461bceb8",
+              "id": 12526977495
+            },
+            "capture": "40011937106",
+            "job": 120614721945,
+            "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/40012077844/job/120614721945",
+            "publication": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+            "published_at": "2026-10-23T19:36:47.683163+00:00",
+            "revision": "13",
+            "source": {
+              "attempt": 1,
+              "run": 40012077844
+            },
+            "tooling": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+            "unsigned_files": {
+              "demo-core-openwrt-build-deps-0.9.0-r13.tar.zst": "9df9d52667d7a2b5f2788ca30901b2e20f449a42ec320ac2efb5ca187900b5df",
+              "demo-core_0.9.0-r13_x86_64.ipk": "53fdc12d5f3b51b10c98348798d3036fedb439cc9fed860b83176cd898cde0de"
+            }
+          }
+        },
+        "revision": "13",
+        "sources": {
+          "demo-core": {
+            "refs/tags/v0.9.0": "bd08c2e179779f32185f437ee6ba9bf2c6f04c44"
+          }
+        },
+        "unsigned_files": {
+          "demo-core-openwrt-build-deps-0.9.0-r13.tar.zst": "9df9d52667d7a2b5f2788ca30901b2e20f449a42ec320ac2efb5ca187900b5df",
+          "demo-core_0.9.0-r13_x86_64.ipk": "53fdc12d5f3b51b10c98348798d3036fedb439cc9fed860b83176cd898cde0de"
+        },
+        "versions": {
+          "demo-core": "0.9.0-r13"
+        }
+      },
+      "v1.0.0": {
+        "context": {
+          "build_project": "demo-core",
+          "captured_at": "2026-10-22T18:59:10Z",
+          "cascade": "39836077535",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "d9126ec8e7c8b23c9080f7a73c1f053d49b7bd9e",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "d511c7bad3e50b9398f8c792fbf23d3c072fe4a0",
+          "recipe_commit": "59d8acf835bc76ece960f336f624af9460aa5216",
+          "release_project": "demo-core",
+          "requested_at": "2026-10-22T18:58:40Z",
+          "run_id": "39836077535",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39836077535",
+          "source_tags": {
+            "demo-app": "v1.0.0",
+            "demo-core": "v1.0.0"
+          },
+          "tag": "v1.0.0",
+          "versions": {
+            "demo-app": "1.0.0",
+            "demo-core": "1.0.0"
+          }
+        },
+        "files": {
+          "demo-core-openwrt-build-deps-1.0.0-r6.tar.zst": "4c0ae23d293003250856faff46876e2f1fdb8f77e4fdfc20787c15732d5c5803",
+          "demo-core_1.0.0-r6_x86_64.ipk": "00c59a57067051752dc51397e0bc07ed1a6efabcd1a06560253a909f4ace372a"
+        },
+        "packages": [],
+        "publications": {
+          "demo-core": {
+            "artifact": {
+              "digest": "sha256:65546c882507bb587653ea217a3e0173a4963a05b982a50a6e5f282aec2c2440",
+              "id": 12451316496
+            },
+            "capture": "39836077535",
+            "job": 120025309245,
+            "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/39836260105/job/120025309245",
+            "publication": "d9126ec8e7c8b23c9080f7a73c1f053d49b7bd9e",
+            "published_at": "2026-10-22T19:05:47.565310+00:00",
+            "revision": "6",
+            "source": {
+              "attempt": 1,
+              "run": 39836260105
+            },
+            "tooling": "59d8acf835bc76ece960f336f624af9460aa5216",
+            "unsigned_files": {
+              "demo-core-openwrt-build-deps-1.0.0-r6.tar.zst": "4c0ae23d293003250856faff46876e2f1fdb8f77e4fdfc20787c15732d5c5803",
+              "demo-core_1.0.0-r6_x86_64.ipk": "00c59a57067051752dc51397e0bc07ed1a6efabcd1a06560253a909f4ace372a"
+            }
+          }
+        },
+        "revision": "6",
+        "sources": {
+          "demo-core": {
+            "refs/tags/v1.0.0": "89852e2e8bc4b7f78abcb0fda75b58417b4596a0"
+          }
+        },
+        "unsigned_files": {
+          "demo-core-openwrt-build-deps-1.0.0-r6.tar.zst": "4c0ae23d293003250856faff46876e2f1fdb8f77e4fdfc20787c15732d5c5803",
+          "demo-core_1.0.0-r6_x86_64.ipk": "00c59a57067051752dc51397e0bc07ed1a6efabcd1a06560253a909f4ace372a"
+        },
+        "versions": {
+          "demo-core": "1.0.0-r6"
+        }
+      },
+      "v1.1.0": {
+        "context": {
+          "build_project": "demo-core",
+          "captured_at": "2026-10-23T21:01:53Z",
+          "cascade": "40023702644",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "01be9cbd069624f83f35c2b96be54e8098aa2f23",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "c63a83499cfaed94f8d6cd366747071946182cb3",
+          "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "release_project": "demo-core",
+          "requested_at": "2026-10-23T21:01:31Z",
+          "run_id": "40023702644",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40023702644",
+          "source_tags": {
+            "demo-app": "v1.3.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.2.0",
+            "demo-side": "v1.3.0"
+          },
+          "tag": "v1.1.0",
+          "versions": {
+            "demo-app": "1.3.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.2.0",
+            "demo-side": "1.3.0"
+          }
+        },
+        "files": {
+          "demo-core-openwrt-build-deps-1.1.0-r15.tar.zst": "4ed322f23557f46103b2609171093f15a7b4881315d18856dbef8afd6d4c13e2",
+          "demo-core_1.1.0-r15_x86_64.ipk": "3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34"
+        },
+        "packages": [
+          "demo-core"
+        ],
+        "publications": {
+          "demo-core": {
+            "artifact": {
+              "digest": "sha256:4c617c76caadd77b7e7d1f22ff85bcbbc504a3912aa35e41f38cbf1ed5beb88a",
+              "id": 12531743055
+            },
+            "capture": "40023702644",
+            "job": 120654818793,
+            "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/40023812717/job/120654818793",
+            "publication": "01be9cbd069624f83f35c2b96be54e8098aa2f23",
+            "published_at": "2026-10-23T21:09:01.045174+00:00",
+            "revision": "15",
+            "source": {
+              "attempt": 1,
+              "run": 40023812717
+            },
+            "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+            "unsigned_files": {
+              "demo-core-openwrt-build-deps-1.1.0-r15.tar.zst": "4ed322f23557f46103b2609171093f15a7b4881315d18856dbef8afd6d4c13e2",
+              "demo-core_1.1.0-r15_x86_64.ipk": "3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34"
+            }
+          }
+        },
+        "revision": "15",
+        "sources": {
+          "demo-core": {
+            "refs/tags/v1.1.0": "b2a150f20afeaccb79ca5a5bc375b6c33bd36463"
+          }
+        },
+        "unsigned_files": {
+          "demo-core-openwrt-build-deps-1.1.0-r15.tar.zst": "4ed322f23557f46103b2609171093f15a7b4881315d18856dbef8afd6d4c13e2",
+          "demo-core_1.1.0-r15_x86_64.ipk": "3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34"
+        },
+        "versions": {
+          "demo-core": "1.1.0-r15"
+        }
+      }
+    },
+    "demo-join": {
+      "v1.0.0": {
+        "context": {
+          "build_project": "demo-join",
+          "captured_at": "2026-10-22T19:31:26Z",
+          "cascade": "39835779276",
+          "cause": "dependent",
+          "contract": 3,
+          "dependency_commit": "c420eedaf294f33ee2575d0f96118fd21b20e5b2",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "210d149de217ecaac4c78630bc06a013ef8d3b2e",
+          "recipe_commit": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+          "release_project": "demo-join",
+          "requested_at": "",
+          "run_id": "39840807587",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39840807587",
+          "source_tags": {
+            "demo-app": "v1.0.0",
+            "demo-core": "v1.0.0",
+            "demo-join": "v1.0.0",
+            "demo-side": "v1.0.0"
+          },
+          "tag": "v1.0.0",
+          "versions": {
+            "demo-app": "1.0.0",
+            "demo-core": "1.0.0",
+            "demo-join": "1.0.0",
+            "demo-side": "1.0.0"
+          }
+        },
+        "files": {
+          "demo-join-openwrt-build-deps-1.0.0-r4.tar.zst": "e89729ba53a12dae6eb7de49f2c11092c6cd4613a62ad13c607436ec28eb59ef",
+          "demo-join_1.0.0-r4_x86_64.ipk": "9b6b15ef505baccff4ca01f26a1652febd2ad5fb84902f270937eb7d73c2a544"
+        },
+        "packages": [],
+        "publications": {
+          "demo-join": {
+            "artifact": {
+              "digest": "sha256:e68b367d34777649ababb3e57c21c2eb8e8e68c4f19530dcfc2a40dfdcbf0a43",
+              "id": 12454777361
+            },
+            "capture": "39840807587",
+            "job": 120041659724,
+            "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/39840996018/job/120041659724",
+            "publication": "c420eedaf294f33ee2575d0f96118fd21b20e5b2",
+            "published_at": "2026-10-22T19:58:24.517149+00:00",
+            "revision": "4",
+            "source": {
+              "attempt": 1,
+              "run": 39840996018
+            },
+            "tooling": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+            "unsigned_files": {
+              "demo-join-openwrt-build-deps-1.0.0-r4.tar.zst": "e89729ba53a12dae6eb7de49f2c11092c6cd4613a62ad13c607436ec28eb59ef",
+              "demo-join_1.0.0-r4_x86_64.ipk": "9b6b15ef505baccff4ca01f26a1652febd2ad5fb84902f270937eb7d73c2a544"
+            }
+          }
+        },
+        "revision": "4",
+        "sources": {
+          "demo-join": {
+            "refs/tags/v1.0.0": "e6ab0dcc01a447976831bf89562d0707af06b261"
+          }
+        },
+        "unsigned_files": {
+          "demo-join-openwrt-build-deps-1.0.0-r4.tar.zst": "e89729ba53a12dae6eb7de49f2c11092c6cd4613a62ad13c607436ec28eb59ef",
+          "demo-join_1.0.0-r4_x86_64.ipk": "9b6b15ef505baccff4ca01f26a1652febd2ad5fb84902f270937eb7d73c2a544"
+        },
+        "versions": {
+          "demo-join": "1.0.0-r4"
+        }
+      },
+      "v1.1.0": {
+        "context": {
+          "build_project": "demo-join",
+          "captured_at": "2026-10-23T19:09:31Z",
+          "cascade": "40003480475",
+          "cause": "dependent",
+          "contract": 3,
+          "dependency_commit": "db9a1b6457df39f63d87d30f8ce66b6c805ea795",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "c834a6eb6de5f7f8121908c2b6eb46c525a5260a",
+          "recipe_commit": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+          "release_project": "demo-join",
+          "requested_at": "",
+          "run_id": "40009129458",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40009129458",
+          "source_tags": {
+            "demo-app": "v1.3.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.1.0",
+            "demo-side": "v1.3.0"
+          },
+          "tag": "v1.1.0",
+          "versions": {
+            "demo-app": "1.3.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.1.0",
+            "demo-side": "1.3.0"
+          }
+        },
+        "files": {
+          "demo-join-openwrt-build-deps-1.1.0-r39.tar.zst": "239ca6b476ca2cd712cd1cf72eea537964ce9d2c138ce2fd47d95685e9055706",
+          "demo-join_1.1.0-r39_x86_64.ipk": "f94f493ea041ccdc9b5f31a267d5846d12474692065778178c7d4780b52172bb"
+        },
+        "packages": [
+          "demo-join"
+        ],
+        "publications": {
+          "demo-join": {
+            "artifact": {
+              "digest": "sha256:d7e88f0b677f1b86233e5e995365f7b5e72238a21b532aadb0b884e18d040137",
+              "id": 12525746600
+            },
+            "capture": "40009129458",
+            "job": 120605129611,
+            "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/40009269391/job/120605129611",
+            "publication": "db9a1b6457df39f63d87d30f8ce66b6c805ea795",
+            "published_at": "2026-10-23T19:16:14.746224+00:00",
+            "revision": "39",
+            "source": {
+              "attempt": 1,
+              "run": 40009269391
+            },
+            "tooling": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+            "unsigned_files": {
+              "demo-join-openwrt-build-deps-1.1.0-r39.tar.zst": "239ca6b476ca2cd712cd1cf72eea537964ce9d2c138ce2fd47d95685e9055706",
+              "demo-join_1.1.0-r39_x86_64.ipk": "f94f493ea041ccdc9b5f31a267d5846d12474692065778178c7d4780b52172bb"
+            }
+          }
+        },
+        "revision": "39",
+        "sources": {
+          "demo-join": {
+            "refs/tags/v1.1.0": "c81ec6e7a1db7f73d56b6bba095ba4fd4c75004e"
+          }
+        },
+        "unsigned_files": {
+          "demo-join-openwrt-build-deps-1.1.0-r39.tar.zst": "239ca6b476ca2cd712cd1cf72eea537964ce9d2c138ce2fd47d95685e9055706",
+          "demo-join_1.1.0-r39_x86_64.ipk": "f94f493ea041ccdc9b5f31a267d5846d12474692065778178c7d4780b52172bb"
+        },
+        "versions": {
+          "demo-join": "1.1.0-r39"
+        }
+      },
+      "v1.2.0": {
+        "context": {
+          "build_project": "demo-join",
+          "captured_at": "2026-10-23T22:28:50Z",
+          "cascade": "40028023012",
+          "cause": "dependent",
+          "contract": 3,
+          "dependency_commit": "7e27c37694f3f06ef0c9b0fe550cb021fc96e854",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "4a26f5a320b67eb8cac8a1583d2e4f6f94f80edd",
+          "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "release_project": "demo-join",
+          "requested_at": "",
+          "run_id": "40033807457",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40033807457",
+          "source_tags": {
+            "demo-app": "v1.3.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.2.0",
+            "demo-side": "v1.4.0"
+          },
+          "tag": "v1.2.0",
+          "versions": {
+            "demo-app": "1.3.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.2.0",
+            "demo-side": "1.4.0"
+          }
+        },
+        "files": {
+          "demo-join-openwrt-build-deps-1.2.0-r42.tar.zst": "1430cbec95ea68f251768dc7af1efd99fd3b595f4c4028661b98d51b6ca3a03d",
+          "demo-join_1.2.0-r42_x86_64.ipk": "7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044"
+        },
+        "packages": [
+          "demo-join"
+        ],
+        "publications": {
+          "demo-join": {
+            "artifact": {
+              "digest": "sha256:2e4faefefa9cfa0810d21b0ad9d074d9f4b6abbc168f7474dfd6a9962ae5c5a2",
+              "id": 12537445177
+            },
+            "capture": "40033807457",
+            "job": 120688919506,
+            "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/40034004136/job/120688919506",
+            "publication": "7e27c37694f3f06ef0c9b0fe550cb021fc96e854",
+            "published_at": "2026-10-23T22:47:24.992158+00:00",
+            "revision": "42",
+            "source": {
+              "attempt": 1,
+              "run": 40034004136
+            },
+            "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+            "unsigned_files": {
+              "demo-join-openwrt-build-deps-1.2.0-r42.tar.zst": "1430cbec95ea68f251768dc7af1efd99fd3b595f4c4028661b98d51b6ca3a03d",
+              "demo-join_1.2.0-r42_x86_64.ipk": "7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044"
+            }
+          }
+        },
+        "revision": "42",
+        "sources": {
+          "demo-join": {
+            "refs/tags/v1.2.0": "55aa9c4fb391e2f502d9a0102ed16620f9ee9418"
+          }
+        },
+        "unsigned_files": {
+          "demo-join-openwrt-build-deps-1.2.0-r42.tar.zst": "1430cbec95ea68f251768dc7af1efd99fd3b595f4c4028661b98d51b6ca3a03d",
+          "demo-join_1.2.0-r42_x86_64.ipk": "7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044"
+        },
+        "versions": {
+          "demo-join": "1.2.0-r42"
+        }
+      }
+    },
+    "demo-side": {
+      "v1.0.0": {
+        "context": {
+          "build_project": "demo-side",
+          "captured_at": "2026-10-22T18:56:55Z",
+          "cascade": "39835779276",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "3c2a7b094f1858b2fd794c3f192cd5cb8f53bca3",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "e8c4e5d63b5d468ffdbab08bd241b6ac37fe43e7",
+          "recipe_commit": "59d8acf835bc76ece960f336f624af9460aa5216",
+          "release_project": "demo-side",
+          "requested_at": "2026-10-22T18:56:33Z",
+          "run_id": "39835779276",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39835779276",
+          "source_tags": {
+            "demo-app": "v1.0.0",
+            "demo-core": "v1.0.0",
+            "demo-side": "v1.0.0"
+          },
+          "tag": "v1.0.0",
+          "versions": {
+            "demo-app": "1.0.0",
+            "demo-core": "1.0.0",
+            "demo-side": "1.0.0"
+          }
+        },
+        "files": {
+          "demo-side-openwrt-build-deps-1.0.0-r1.tar.zst": "d1492f04b66d9e958a6659c4501340ef59ce3586dbb18210072dc23d50971855",
+          "demo-side_1.0.0-r1_x86_64.ipk": "e620af01a0312a032e9e37bbb4be03b6a045f263de8c8735c91d36d37bc274d5"
+        },
+        "packages": [],
+        "publications": {
+          "demo-side": {
+            "artifact": {
+              "digest": "sha256:0740b92dcd6ed2318ab75a83b846c04c4391cc75acf6d6200d20b21c079fcd4f",
+              "id": 12452522572
+            },
+            "capture": "39835779276",
+            "job": 120035143249,
+            "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/39839109950/job/120035143249",
+            "publication": "3c2a7b094f1858b2fd794c3f192cd5cb8f53bca3",
+            "published_at": "2026-10-22T19:24:33.002882+00:00",
+            "revision": "1",
+            "source": {
+              "attempt": 1,
+              "run": 39839109950
+            },
+            "tooling": "59d8acf835bc76ece960f336f624af9460aa5216",
+            "unsigned_files": {
+              "demo-side-openwrt-build-deps-1.0.0-r1.tar.zst": "d1492f04b66d9e958a6659c4501340ef59ce3586dbb18210072dc23d50971855",
+              "demo-side_1.0.0-r1_x86_64.ipk": "e620af01a0312a032e9e37bbb4be03b6a045f263de8c8735c91d36d37bc274d5"
+            }
+          }
+        },
+        "revision": "1",
+        "sources": {
+          "demo-side": {
+            "refs/tags/v1.0.0": "8d49553578bb7adf86a8ada565ab623a05641457"
+          }
+        },
+        "unsigned_files": {
+          "demo-side-openwrt-build-deps-1.0.0-r1.tar.zst": "d1492f04b66d9e958a6659c4501340ef59ce3586dbb18210072dc23d50971855",
+          "demo-side_1.0.0-r1_x86_64.ipk": "e620af01a0312a032e9e37bbb4be03b6a045f263de8c8735c91d36d37bc274d5"
+        },
+        "versions": {
+          "demo-side": "1.0.0-r1"
+        }
+      },
+      "v1.1.0": {
+        "context": {
+          "build_project": "demo-side",
+          "captured_at": "2026-10-22T21:35:36Z",
+          "cascade": "39858486738",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "9d311f056f04d95fb996eaa9ac0205d8c662fad0",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "3ff91b30318eea43f979a3daf26da130a4e97084",
+          "recipe_commit": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+          "release_project": "demo-side",
+          "requested_at": "2026-10-22T21:35:14Z",
+          "run_id": "39858486738",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39858486738",
+          "source_tags": {
+            "demo-app": "v1.1.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.0.0",
+            "demo-side": "v1.1.0"
+          },
+          "tag": "v1.1.0",
+          "versions": {
+            "demo-app": "1.1.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.0.0",
+            "demo-side": "1.1.0"
+          }
+        },
+        "files": {
+          "demo-side-openwrt-build-deps-1.1.0-r6.tar.zst": "92e3a03a97af8a11a6857cb9711df4d9fc5db1e75e45a8385594d0a9644b643a",
+          "demo-side_1.1.0-r6_x86_64.ipk": "ac4dfb16a220fa5d1a45b76b3e9022c36e1eb3bc7c3cba6b28da5c406b87f740"
+        },
+        "packages": [
+          "demo-side"
+        ],
+        "publications": {
+          "demo-side": {
+            "artifact": {
+              "digest": "sha256:57720c153cdd151cdeb801794ed1f74bb1d7b3166544d4660379036af6568b30",
+              "id": 12461655763
+            },
+            "capture": "39858486738",
+            "job": 120107437615,
+            "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/39859854588/job/120107437615",
+            "publication": "9d311f056f04d95fb996eaa9ac0205d8c662fad0",
+            "published_at": "2026-10-22T21:56:21.111876+00:00",
+            "revision": "6",
+            "source": {
+              "attempt": 1,
+              "run": 39859854588
+            },
+            "tooling": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+            "unsigned_files": {
+              "demo-side-openwrt-build-deps-1.1.0-r6.tar.zst": "92e3a03a97af8a11a6857cb9711df4d9fc5db1e75e45a8385594d0a9644b643a",
+              "demo-side_1.1.0-r6_x86_64.ipk": "ac4dfb16a220fa5d1a45b76b3e9022c36e1eb3bc7c3cba6b28da5c406b87f740"
+            }
+          }
+        },
+        "revision": "6",
+        "sources": {
+          "demo-side": {
+            "refs/tags/v1.1.0": "57d583fe6ad38ad9e9c3447dddd4cfa05f4396f6"
+          }
+        },
+        "unsigned_files": {
+          "demo-side-openwrt-build-deps-1.1.0-r6.tar.zst": "92e3a03a97af8a11a6857cb9711df4d9fc5db1e75e45a8385594d0a9644b643a",
+          "demo-side_1.1.0-r6_x86_64.ipk": "ac4dfb16a220fa5d1a45b76b3e9022c36e1eb3bc7c3cba6b28da5c406b87f740"
+        },
+        "versions": {
+          "demo-side": "1.1.0-r6"
+        }
+      },
+      "v1.2.0": {
+        "context": {
+          "build_project": "demo-side",
+          "captured_at": "2026-10-22T23:01:03Z",
+          "cascade": "39865323649",
+          "cause": "dependent",
+          "contract": 3,
+          "dependency_commit": "303d41689c86870ce1e3a8ea32e9963378cbb4eb",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "7e940621a2deabb3125819dc42b240c95262fda0",
+          "recipe_commit": "1c269c07253d155ac34620a4e44ba5fc4cc207a3",
+          "release_project": "demo-side",
+          "requested_at": "",
+          "run_id": "39868941441",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39868941441",
+          "source_tags": {
+            "demo-app": "v1.2.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.1.0",
+            "demo-side": "v1.2.0"
+          },
+          "tag": "v1.2.0",
+          "versions": {
+            "demo-app": "1.2.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.1.0",
+            "demo-side": "1.2.0"
+          }
+        },
+        "files": {
+          "demo-side-openwrt-build-deps-1.2.0-r11.tar.zst": "05fc49e6e661bbb41546a1eff934413440025b1883b147b946a0a88d0f9b777d",
+          "demo-side_1.2.0-r11_x86_64.ipk": "b5fd506f7786e134a7507884b27b21b7dae8132ad5eb88c96d11775b7afb767d"
+        },
+        "packages": [
+          "demo-side"
+        ],
+        "publications": {
+          "demo-side": {
+            "artifact": {
+              "digest": "sha256:767d60b4952b1641b83caeaa2fcb1ccc5a616985cbc2a51a1227c8c8fece0a69",
+              "id": 12465597280
+            },
+            "capture": "39868941441",
+            "job": 120138769633,
+            "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/39869117624/job/120138769633",
+            "publication": "303d41689c86870ce1e3a8ea32e9963378cbb4eb",
+            "published_at": "2026-10-22T23:13:04.039626+00:00",
+            "revision": "11",
+            "source": {
+              "attempt": 1,
+              "run": 39869117624
+            },
+            "tooling": "1c269c07253d155ac34620a4e44ba5fc4cc207a3",
+            "unsigned_files": {
+              "demo-side-openwrt-build-deps-1.2.0-r11.tar.zst": "05fc49e6e661bbb41546a1eff934413440025b1883b147b946a0a88d0f9b777d",
+              "demo-side_1.2.0-r11_x86_64.ipk": "b5fd506f7786e134a7507884b27b21b7dae8132ad5eb88c96d11775b7afb767d"
+            }
+          }
+        },
+        "revision": "11",
+        "sources": {
+          "demo-side": {
+            "refs/tags/v1.2.0": "2c36aa98ba01c8ec42aceb3b8541a199ce97beed"
+          }
+        },
+        "unsigned_files": {
+          "demo-side-openwrt-build-deps-1.2.0-r11.tar.zst": "05fc49e6e661bbb41546a1eff934413440025b1883b147b946a0a88d0f9b777d",
+          "demo-side_1.2.0-r11_x86_64.ipk": "b5fd506f7786e134a7507884b27b21b7dae8132ad5eb88c96d11775b7afb767d"
+        },
+        "versions": {
+          "demo-side": "1.2.0-r11"
+        }
+      },
+      "v1.3.0": {
+        "context": {
+          "build_project": "demo-side",
+          "captured_at": "2026-10-23T18:59:22Z",
+          "cascade": "40003480475",
+          "cause": "dependent",
+          "contract": 3,
+          "dependency_commit": "4cf872c4029c9b7fa6b2cc0c67787bebeca113db",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "96025c1b8c343183134f41cc62dc3c4f8db70b2b",
+          "recipe_commit": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+          "release_project": "demo-side",
+          "requested_at": "",
+          "run_id": "40007772550",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40007772550",
+          "source_tags": {
+            "demo-app": "v1.3.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.1.0",
+            "demo-side": "v1.3.0"
+          },
+          "tag": "v1.3.0",
+          "versions": {
+            "demo-app": "1.3.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.1.0",
+            "demo-side": "1.3.0"
+          }
+        },
+        "files": {
+          "demo-side-openwrt-build-deps-1.3.0-r20.tar.zst": "a13af43a70d26f58406b25817e641d2b46306c579adf90886686e32be04b4a7c",
+          "demo-side_1.3.0-r20_x86_64.ipk": "6bc08dc2ee4c7af4418b88ccd366779ca14db122075539f83e0590f4bdb3e39a"
+        },
+        "packages": [
+          "demo-side"
+        ],
+        "publications": {
+          "demo-side": {
+            "artifact": {
+              "digest": "sha256:fd29fa93ff2c579aea54c676e41842956e068e94407e84cec81386db6054d5b8",
+              "id": 12525147120
+            },
+            "capture": "40007772550",
+            "job": 120600618332,
+            "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/40007956554/job/120600618332",
+            "publication": "4cf872c4029c9b7fa6b2cc0c67787bebeca113db",
+            "published_at": "2026-10-23T19:08:35.174141+00:00",
+            "revision": "20",
+            "source": {
+              "attempt": 1,
+              "run": 40007956554
+            },
+            "tooling": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+            "unsigned_files": {
+              "demo-side-openwrt-build-deps-1.3.0-r20.tar.zst": "a13af43a70d26f58406b25817e641d2b46306c579adf90886686e32be04b4a7c",
+              "demo-side_1.3.0-r20_x86_64.ipk": "6bc08dc2ee4c7af4418b88ccd366779ca14db122075539f83e0590f4bdb3e39a"
+            }
+          }
+        },
+        "revision": "20",
+        "sources": {
+          "demo-side": {
+            "refs/tags/v1.3.0": "ccd1ff10e3f079dc3d3b327b34e966dae8977df8"
+          }
+        },
+        "unsigned_files": {
+          "demo-side-openwrt-build-deps-1.3.0-r20.tar.zst": "a13af43a70d26f58406b25817e641d2b46306c579adf90886686e32be04b4a7c",
+          "demo-side_1.3.0-r20_x86_64.ipk": "6bc08dc2ee4c7af4418b88ccd366779ca14db122075539f83e0590f4bdb3e39a"
+        },
+        "versions": {
+          "demo-side": "1.3.0-r20"
+        }
+      },
+      "v1.4.0": {
+        "context": {
+          "build_project": "demo-side",
+          "captured_at": "2026-10-23T22:20:22Z",
+          "cascade": "40032925715",
+          "cause": "release",
+          "contract": 3,
+          "dependency_commit": "9af7fcbf65c3a50b6ac9072532c7375e4dc52808",
+          "destination": "VOC-Experiments/packages",
+          "packages_commit": "29b364d59606e3f47f58da288ec2387426aa8431",
+          "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "release_project": "demo-side",
+          "requested_at": "2026-10-23T22:19:58Z",
+          "run_id": "40032925715",
+          "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40032925715",
+          "source_tags": {
+            "demo-app": "v1.3.0",
+            "demo-core": "v1.1.0",
+            "demo-join": "v1.2.0",
+            "demo-side": "v1.4.0"
+          },
+          "tag": "v1.4.0",
+          "versions": {
+            "demo-app": "1.3.0",
+            "demo-core": "1.1.0",
+            "demo-join": "1.2.0",
+            "demo-side": "1.4.0"
+          }
+        },
+        "files": {
+          "demo-side-openwrt-build-deps-1.4.0-r23.tar.zst": "9347a4fe758e46dfe18e8b411fae32b341e08ea3e29a7ed7249547b7bc15b45b",
+          "demo-side_1.4.0-r23_x86_64.ipk": "e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5"
+        },
+        "packages": [
+          "demo-side"
+        ],
+        "publications": {
+          "demo-side": {
+            "artifact": {
+              "digest": "sha256:44b278f177603040184c92c0f61eaf836268a5354f036c8e70ffa8f88329dd71",
+              "id": 12535028925
+            },
+            "capture": "40032925715",
+            "job": 120685723752,
+            "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/40033037909/job/120685723752",
+            "publication": "9af7fcbf65c3a50b6ac9072532c7375e4dc52808",
+            "published_at": "2026-10-23T22:25:29.211520+00:00",
+            "revision": "23",
+            "source": {
+              "attempt": 1,
+              "run": 40033037909
+            },
+            "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+            "unsigned_files": {
+              "demo-side-openwrt-build-deps-1.4.0-r23.tar.zst": "9347a4fe758e46dfe18e8b411fae32b341e08ea3e29a7ed7249547b7bc15b45b",
+              "demo-side_1.4.0-r23_x86_64.ipk": "e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5"
+            }
+          }
+        },
+        "revision": "23",
+        "sources": {
+          "demo-side": {
+            "refs/tags/v1.4.0": "7675c318b85c4f14b879e97aa7b82ce444ad3169"
+          }
+        },
+        "unsigned_files": {
+          "demo-side-openwrt-build-deps-1.4.0-r23.tar.zst": "9347a4fe758e46dfe18e8b411fae32b341e08ea3e29a7ed7249547b7bc15b45b",
+          "demo-side_1.4.0-r23_x86_64.ipk": "e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5"
+        },
+        "versions": {
+          "demo-side": "1.4.0-r23"
+        }
+      }
+    }
+  },
+  "revision": "42",
+  "sdk_url": "https://downloads.openwrt.org/releases/24.10.8/targets/x86/64/openwrt-sdk-24.10.8-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst",
+  "series": "24.10",
+  "sha256": "ac4a0405d2eea821b06f93c14ba13ffa90ad0457648903df7dde02570027ab21",
+  "sources": {
+    "demo-app": {
+      "refs/tags/v1.3.0": "d979bd6940b19ba9774cb2d510c2ec62236d3211"
+    },
+    "demo-core": {
+      "refs/tags/v1.1.0": "b2a150f20afeaccb79ca5a5bc375b6c33bd36463"
+    },
+    "demo-join": {
+      "refs/tags/v1.2.0": "55aa9c4fb391e2f502d9a0102ed16620f9ee9418"
+    },
+    "demo-side": {
+      "refs/tags/v1.4.0": "7675c318b85c4f14b879e97aa7b82ce444ad3169"
+    }
+  },
+  "target": "x86/64",
+  "unsigned_files": {
+    "Packages": "9126748ff4177e62b66710d1ce9f4a535de6dd51f0e293da7f0947c89cc55f5b",
+    "Packages.gz": "e2812cdd6d185dbe241ae8378f236a8180c1f8d66bb5147106684803ba25d444",
+    "demo-app-openwrt-build-deps-1.0.0-r13.tar.zst": "0c49d909ad71b3670d38063e16e94c55e6e0143cd0b8fc1ed93b5841a3b8583e",
+    "demo-app-openwrt-build-deps-1.1.0-r17.tar.zst": "b816caad732965036ce7fc937fdee1ffd5ed4ec66c005e9a00052c8afd42c484",
+    "demo-app-openwrt-build-deps-1.2.0-r26.tar.zst": "e6cac0475c983a7e36800e59f370e3d62926256dce43fcbd911c2f1b443035a5",
+    "demo-app-openwrt-build-deps-1.2.9-r29.tar.zst": "50e9b1d6849fd3a9652aaf855b76b0b190057e3182f9d545e79d3d87d014af04",
+    "demo-app-openwrt-build-deps-1.3.0-r31.tar.zst": "112cc165c29f08080f5b71f6ab19c99e0019abfc492fcda50d4a6f3dc84be64a",
+    "demo-app_1.0.0-r13_x86_64.ipk": "7e0122f8e9f5d468d4c66765220d4a756e46e612c0e0a154b0837134309b2a5f",
+    "demo-app_1.1.0-r17_x86_64.ipk": "30340f57a673ca998d706b3c9a772ea76a1be162eced6d6377fb13572427e21b",
+    "demo-app_1.2.0-r26_x86_64.ipk": "d80fab085dd5113e70f8fadd2f01f5d203bfbd55787b0999c31af391bd7819ff",
+    "demo-app_1.2.9-r29_x86_64.ipk": "643431c2b0db364f00d7a2ac9d2a79e3faa927d5be49d8195a7070c25fc80d4d",
+    "demo-app_1.3.0-r31_x86_64.ipk": "3c74e1f9e5825ff0965b1fe6830e7ce2c4fd28780cd72e864b09485ff89f58e8",
+    "demo-core-openwrt-build-deps-0.9.0-r13.tar.zst": "9df9d52667d7a2b5f2788ca30901b2e20f449a42ec320ac2efb5ca187900b5df",
+    "demo-core-openwrt-build-deps-1.0.0-r6.tar.zst": "4c0ae23d293003250856faff46876e2f1fdb8f77e4fdfc20787c15732d5c5803",
+    "demo-core-openwrt-build-deps-1.1.0-r15.tar.zst": "4ed322f23557f46103b2609171093f15a7b4881315d18856dbef8afd6d4c13e2",
+    "demo-core_0.9.0-r13_x86_64.ipk": "53fdc12d5f3b51b10c98348798d3036fedb439cc9fed860b83176cd898cde0de",
+    "demo-core_1.0.0-r6_x86_64.ipk": "00c59a57067051752dc51397e0bc07ed1a6efabcd1a06560253a909f4ace372a",
+    "demo-core_1.1.0-r15_x86_64.ipk": "3113027590c9cf143609d4d9e558bc3c40dda8b040f86b0f7fb646a03b599e34",
+    "demo-join-openwrt-build-deps-1.0.0-r4.tar.zst": "e89729ba53a12dae6eb7de49f2c11092c6cd4613a62ad13c607436ec28eb59ef",
+    "demo-join-openwrt-build-deps-1.1.0-r39.tar.zst": "239ca6b476ca2cd712cd1cf72eea537964ce9d2c138ce2fd47d95685e9055706",
+    "demo-join-openwrt-build-deps-1.2.0-r42.tar.zst": "1430cbec95ea68f251768dc7af1efd99fd3b595f4c4028661b98d51b6ca3a03d",
+    "demo-join_1.0.0-r4_x86_64.ipk": "9b6b15ef505baccff4ca01f26a1652febd2ad5fb84902f270937eb7d73c2a544",
+    "demo-join_1.1.0-r39_x86_64.ipk": "f94f493ea041ccdc9b5f31a267d5846d12474692065778178c7d4780b52172bb",
+    "demo-join_1.2.0-r42_x86_64.ipk": "7e9b2c92e0b4eaabc7826b186313d2e02fe114eccbfc4c65c506a58081e0b044",
+    "demo-side-openwrt-build-deps-1.0.0-r1.tar.zst": "d1492f04b66d9e958a6659c4501340ef59ce3586dbb18210072dc23d50971855",
+    "demo-side-openwrt-build-deps-1.1.0-r6.tar.zst": "92e3a03a97af8a11a6857cb9711df4d9fc5db1e75e45a8385594d0a9644b643a",
+    "demo-side-openwrt-build-deps-1.2.0-r11.tar.zst": "05fc49e6e661bbb41546a1eff934413440025b1883b147b946a0a88d0f9b777d",
+    "demo-side-openwrt-build-deps-1.3.0-r20.tar.zst": "a13af43a70d26f58406b25817e641d2b46306c579adf90886686e32be04b4a7c",
+    "demo-side-openwrt-build-deps-1.4.0-r23.tar.zst": "9347a4fe758e46dfe18e8b411fae32b341e08ea3e29a7ed7249547b7bc15b45b",
+    "demo-side_1.0.0-r1_x86_64.ipk": "e620af01a0312a032e9e37bbb4be03b6a045f263de8c8735c91d36d37bc274d5",
+    "demo-side_1.1.0-r6_x86_64.ipk": "ac4dfb16a220fa5d1a45b76b3e9022c36e1eb3bc7c3cba6b28da5c406b87f740",
+    "demo-side_1.2.0-r11_x86_64.ipk": "b5fd506f7786e134a7507884b27b21b7dae8132ad5eb88c96d11775b7afb767d",
+    "demo-side_1.3.0-r20_x86_64.ipk": "6bc08dc2ee4c7af4418b88ccd366779ca14db122075539f83e0590f4bdb3e39a",
+    "demo-side_1.4.0-r23_x86_64.ipk": "e38ec1b3ff7e4b22225eb33cb7ad9293c74b8db9c6e8939b66c019ced3b1d0b5"
+  },
+  "versions": {
+    "demo-app": "1.3.0-r31",
+    "demo-core": "1.1.0-r15",
+    "demo-join": "1.2.0-r42",
+    "demo-side": "1.4.0-r23"
+  }
+}

@@ -1,0 +1,24 @@
+Package: demo-app
+Version: 2.1.0-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-app-2.1.0-r1.ipk
+Size: 3838
+SHA256sum: a458f900506ee07a532239135b3eec201aeb938a0d916461821c25484dde5684
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc, demo-core
+
+Package: demo-core
+Version: 2.1.13-r1
+Architecture: x86_64
+Maintainer: VOC-Experiments sandbox <noreply@example.invalid>
+Filename: demo-core-2.1.13-r1.ipk
+Size: 4220
+SHA256sum: 14754760d9fd727316414d8a747d11c270a06f7aded0e22ae8a9cd1dbe5babe5
+Description: Graph-driven package pipeline acceptance project
+Section: devel
+Priority: optional
+Depends: libc
+

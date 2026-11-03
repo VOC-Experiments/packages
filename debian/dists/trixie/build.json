@@ -1,0 +1,1461 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "distribution": "debian",
+  "files": {
+    "dists/trixie/InRelease": "0d21aee57a77b4ec95f00f04544cea0dccba883f0441e5d1201e28909ab61982",
+    "dists/trixie/Release": "7fa61ac1bb7ed22432f1169b0ccac7b7530f65dc36b0b42f3029babb20114817",
+    "dists/trixie/Release.gpg": "082eac0e45cb8f123f34d376acfc7cc44cbf1976af9dff633e11416019d259c7",
+    "dists/trixie/main/binary-amd64/Packages": "24d0fc8df8d421cd766ee1d6a05e9f26ba05bad11b719fae60c3746608e598b5",
+    "dists/trixie/main/binary-amd64/Packages.gz": "63ce8d3006d21bc116f011740c373f5b29e5dd188a2c90b7a2c24297d9eb8ed1",
+    "dists/trixie/main/binary-amd64/by-hash/SHA256/24d0fc8df8d421cd766ee1d6a05e9f26ba05bad11b719fae60c3746608e598b5": "24d0fc8df8d421cd766ee1d6a05e9f26ba05bad11b719fae60c3746608e598b5",
+    "dists/trixie/main/binary-amd64/by-hash/SHA256/63ce8d3006d21bc116f011740c373f5b29e5dd188a2c90b7a2c24297d9eb8ed1": "63ce8d3006d21bc116f011740c373f5b29e5dd188a2c90b7a2c24297d9eb8ed1",
+    "pool/trixie/demo-app_0.9.0-11~trixie_amd64.deb": "04bb0ee1d7587beee4d7e82a37d3f1c025c19febed892a4d6cc2c553feb9e698",
+    "pool/trixie/demo-app_1.0.0-12~trixie_amd64.deb": "cc95637813c81bece337788395ae1694f2981e4d49c5bbf4463ddb8900981d7b",
+    "pool/trixie/demo-app_1.1.0-18~trixie_amd64.deb": "b3b8f65b27bc813f957171adce63f823eae23123ea564bc269cf0e4c97729fa3",
+    "pool/trixie/demo-app_1.2.0-26~trixie_amd64.deb": "c25a89e32ada704eebd1e9b2a32515dee00d087865fa9c0b07d6b19cde7209a8",
+    "pool/trixie/demo-app_1.2.9-29~trixie_amd64.deb": "cda60377d9986fe51e993039195def61cecc657ac5d8e3e62e95b38183a369b9",
+    "pool/trixie/demo-app_1.3.0-31~trixie_amd64.deb": "1c1cbbe528bc805b789d82fe2faede0302c73032545e7cd89195b8b603bf8ee3",
+    "pool/trixie/demo-core_0.9.0-13~trixie_amd64.deb": "990c15bbfb3df2f55f572bfa348d254fac6d44fadfe68d9d905daec26b3431a8",
+    "pool/trixie/demo-core_1.0.0-6~trixie_amd64.deb": "cff51487eaf10ff825160c13670003c6adad48d04aa8cafbc9da818fece3a3a1",
+    "pool/trixie/demo-core_1.1.0-15~trixie_amd64.deb": "b200f5bcb2b8672338f2f8bbb4ec5f8a795c5f29f7c504e24c06427fa94e5890",
+    "pool/trixie/demo-join_1.0.0-2~trixie_amd64.deb": "b3b4a2667706793981975ce39058e36609ab5574fbf9ad7d304b60a56dc2d0e2",
+    "pool/trixie/demo-join_1.1.0-39~trixie_amd64.deb": "1bce2f75619b8ad1781c0be1d084052e62643bf4c7c49daf88cdae35e5423fc0",
+    "pool/trixie/demo-join_1.2.0-42~trixie_amd64.deb": "d4d118100daf6c20a417fcb02b1631321675ff2d21ddf256149f14d3f6342e8b",
+    "pool/trixie/demo-side_0.9.0-2~trixie_amd64.deb": "e82aac20d9a3b1a7cb71d5264836ebc4b07867b72d39d8979a55caffa26311ac",
+    "pool/trixie/demo-side_1.0.0-3~trixie_amd64.deb": "14f3194bfb66c1fe5bfd519a0db9c937bdaf9aa22f12a4a4ef03708402a7ba3a",
+    "pool/trixie/demo-side_1.1.0-8~trixie_amd64.deb": "b3c8d88bba1f7d432b54ed28ce202f97625cfd8ea74bbdd97b573c6eb7f1cd40",
+    "pool/trixie/demo-side_1.2.0-10~trixie_amd64.deb": "53721edb1a2db692bb593c8d7b286e54b310eb7161b927725aefc7257fb777de",
+    "pool/trixie/demo-side_1.3.0-20~trixie_amd64.deb": "64a5550fe44f501f6df288fc9e8186b206c6c1c9dcb8a03ff6418603107494ec",
+    "pool/trixie/demo-side_1.4.0-23~trixie_amd64.deb": "db1a46f00591df3d6f65da1e95ab6532f6e3e4583edeacb197c6f6acf66a674d"
+  },
+  "revision": "42",
+  "suite": "trixie",
+  "targets": {
+    "amd64": {
+      "architectures": [
+        "amd64"
+      ],
+      "context": {
+        "build_project": "demo-join",
+        "captured_at": "2026-10-23T22:28:30Z",
+        "cascade": "40023702644",
+        "cause": "dependent",
+        "contract": 3,
+        "dependency_commit": "158f0dd485070b03fcdf6efb14e367f5d7331550",
+        "destination": "VOC-Experiments/packages",
+        "packages_commit": "9fcf5f52a08a5a3b12aea895567b0d12350b10a1",
+        "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+        "release_project": "demo-join",
+        "requested_at": "",
+        "run_id": "40033799778",
+        "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40033799778",
+        "source_tags": {
+          "demo-app": "v1.3.0",
+          "demo-core": "v1.1.0",
+          "demo-join": "v1.2.0",
+          "demo-side": "v1.4.0"
+        },
+        "tag": "v1.2.0",
+        "versions": {
+          "demo-app": "1.3.0",
+          "demo-core": "1.1.0",
+          "demo-join": "1.2.0",
+          "demo-side": "1.4.0"
+        }
+      },
+      "distribution": "debian",
+      "files": {
+        "demo-app_0.9.0-11~trixie_amd64.deb": "04bb0ee1d7587beee4d7e82a37d3f1c025c19febed892a4d6cc2c553feb9e698",
+        "demo-app_1.0.0-12~trixie_amd64.deb": "cc95637813c81bece337788395ae1694f2981e4d49c5bbf4463ddb8900981d7b",
+        "demo-app_1.1.0-18~trixie_amd64.deb": "b3b8f65b27bc813f957171adce63f823eae23123ea564bc269cf0e4c97729fa3",
+        "demo-app_1.2.0-26~trixie_amd64.deb": "c25a89e32ada704eebd1e9b2a32515dee00d087865fa9c0b07d6b19cde7209a8",
+        "demo-app_1.2.9-29~trixie_amd64.deb": "cda60377d9986fe51e993039195def61cecc657ac5d8e3e62e95b38183a369b9",
+        "demo-app_1.3.0-31~trixie_amd64.deb": "1c1cbbe528bc805b789d82fe2faede0302c73032545e7cd89195b8b603bf8ee3",
+        "demo-core_0.9.0-13~trixie_amd64.deb": "990c15bbfb3df2f55f572bfa348d254fac6d44fadfe68d9d905daec26b3431a8",
+        "demo-core_1.0.0-6~trixie_amd64.deb": "cff51487eaf10ff825160c13670003c6adad48d04aa8cafbc9da818fece3a3a1",
+        "demo-core_1.1.0-15~trixie_amd64.deb": "b200f5bcb2b8672338f2f8bbb4ec5f8a795c5f29f7c504e24c06427fa94e5890",
+        "demo-join_1.0.0-2~trixie_amd64.deb": "b3b4a2667706793981975ce39058e36609ab5574fbf9ad7d304b60a56dc2d0e2",
+        "demo-join_1.1.0-39~trixie_amd64.deb": "1bce2f75619b8ad1781c0be1d084052e62643bf4c7c49daf88cdae35e5423fc0",
+        "demo-join_1.2.0-42~trixie_amd64.deb": "d4d118100daf6c20a417fcb02b1631321675ff2d21ddf256149f14d3f6342e8b",
+        "demo-side_0.9.0-2~trixie_amd64.deb": "e82aac20d9a3b1a7cb71d5264836ebc4b07867b72d39d8979a55caffa26311ac",
+        "demo-side_1.0.0-3~trixie_amd64.deb": "14f3194bfb66c1fe5bfd519a0db9c937bdaf9aa22f12a4a4ef03708402a7ba3a",
+        "demo-side_1.1.0-8~trixie_amd64.deb": "b3c8d88bba1f7d432b54ed28ce202f97625cfd8ea74bbdd97b573c6eb7f1cd40",
+        "demo-side_1.2.0-10~trixie_amd64.deb": "53721edb1a2db692bb593c8d7b286e54b310eb7161b927725aefc7257fb777de",
+        "demo-side_1.3.0-20~trixie_amd64.deb": "64a5550fe44f501f6df288fc9e8186b206c6c1c9dcb8a03ff6418603107494ec",
+        "demo-side_1.4.0-23~trixie_amd64.deb": "db1a46f00591df3d6f65da1e95ab6532f6e3e4583edeacb197c6f6acf66a674d"
+      },
+      "image": "debian:trixie",
+      "packages": [
+        "demo-app",
+        "demo-core",
+        "demo-join",
+        "demo-side"
+      ],
+      "publications": {
+        "demo-app": {
+          "artifact": {
+            "digest": "sha256:38e121f4c1e93dace715d38b4aa28e54dea90d721a39c38f9115dab0356d3591",
+            "id": 12534055701
+          },
+          "capture": "40028023012",
+          "job": 120669324503,
+          "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/40028119662/job/120669324503",
+          "publication": "83f849c975facd6e2fc5c180a35f8187c272edb3",
+          "published_at": "2026-10-23T21:39:50.831639+00:00",
+          "revision": "31",
+          "source": {
+            "attempt": 1,
+            "run": 40028119662
+          },
+          "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "unsigned_files": {
+            "demo-app_1.3.0-31~trixie_amd64.deb": "1c1cbbe528bc805b789d82fe2faede0302c73032545e7cd89195b8b603bf8ee3"
+          }
+        },
+        "demo-core": {
+          "artifact": {
+            "digest": "sha256:70a343871a065df1c6096886a4e3bcdd4b5cdd45284e68996ae4822352a3b654",
+            "id": 12531318189
+          },
+          "capture": "40023702644",
+          "job": 120654776912,
+          "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/40023800402/job/120654776912",
+          "publication": "01be9cbd069624f83f35c2b96be54e8098aa2f23",
+          "published_at": "2026-10-23T21:04:20.822949+00:00",
+          "revision": "15",
+          "source": {
+            "attempt": 1,
+            "run": 40023800402
+          },
+          "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "unsigned_files": {
+            "demo-core_1.1.0-15~trixie_amd64.deb": "b200f5bcb2b8672338f2f8bbb4ec5f8a795c5f29f7c504e24c06427fa94e5890"
+          }
+        },
+        "demo-join": {
+          "artifact": {
+            "digest": "sha256:02fd12cc2a052a3ba4acdd0eb7d72d32ca5e57ed374fb00f3e04bc468a6b2187",
+            "id": 12536670558
+          },
+          "capture": "40033799778",
+          "job": 120688669976,
+          "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/40033929898/job/120688669976",
+          "publication": "158f0dd485070b03fcdf6efb14e367f5d7331550",
+          "published_at": "2026-10-23T22:31:29.998616+00:00",
+          "revision": "42",
+          "source": {
+            "attempt": 1,
+            "run": 40033929898
+          },
+          "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "unsigned_files": {
+            "demo-join_1.2.0-42~trixie_amd64.deb": "d4d118100daf6c20a417fcb02b1631321675ff2d21ddf256149f14d3f6342e8b"
+          }
+        },
+        "demo-side": {
+          "artifact": {
+            "digest": "sha256:1c04b6b588d855af3dc0a1bd5f44bba13bbbe39796457d92f8d4c96ad6905415",
+            "id": 12535178305
+          },
+          "capture": "40032925715",
+          "job": 120685718519,
+          "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/40033025998/job/120685718519",
+          "publication": "9af7fcbf65c3a50b6ac9072532c7375e4dc52808",
+          "published_at": "2026-10-23T22:24:02.778059+00:00",
+          "revision": "23",
+          "source": {
+            "attempt": 1,
+            "run": 40033025998
+          },
+          "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+          "unsigned_files": {
+            "demo-side_1.4.0-23~trixie_amd64.deb": "db1a46f00591df3d6f65da1e95ab6532f6e3e4583edeacb197c6f6acf66a674d"
+          }
+        }
+      },
+      "published_at": "2026-10-23T22:31:29.998616+00:00",
+      "releases": {
+        "demo-app": {
+          "v0.9.0": {
+            "context": {
+              "build_project": "demo-app",
+              "captured_at": "2026-10-22T18:42:37Z",
+              "cascade": "39833699291",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "019aaa3c7406fdf1f80a38e76b18080123d8d893",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "463d6928bb54bb1d40c917aa5ebd915a8ff8e010",
+              "recipe_commit": "fe63d8a995b85bd02812bfb99ce87005e6ffa87c",
+              "release_project": "demo-app",
+              "requested_at": "2026-10-22T18:42:12Z",
+              "run_id": "39833699291",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39833699291",
+              "source_tags": {
+                "demo-app": "v0.9.0",
+                "demo-core": "v1.0.0"
+              },
+              "tag": "v0.9.0",
+              "versions": {
+                "demo-app": "0.9.0",
+                "demo-core": "1.0.0"
+              }
+            },
+            "files": {
+              "demo-app_0.9.0-11~trixie_amd64.deb": "04bb0ee1d7587beee4d7e82a37d3f1c025c19febed892a4d6cc2c553feb9e698"
+            },
+            "packages": [
+              "demo-app"
+            ],
+            "publications": {
+              "demo-app": {
+                "artifact": {
+                  "digest": "sha256:13a323144f4a499316345cea55c69695642bab02eb00762c548f6650d54bfce8",
+                  "id": 12449991929
+                },
+                "capture": "39833699291",
+                "job": 120016829928,
+                "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/39833841299/job/120016829928",
+                "publication": "019aaa3c7406fdf1f80a38e76b18080123d8d893",
+                "published_at": "2026-10-22T18:46:45.098179+00:00",
+                "revision": "11",
+                "source": {
+                  "attempt": 1,
+                  "run": 39833841299
+                },
+                "tooling": "fe63d8a995b85bd02812bfb99ce87005e6ffa87c",
+                "unsigned_files": {
+                  "demo-app_0.9.0-11~trixie_amd64.deb": "04bb0ee1d7587beee4d7e82a37d3f1c025c19febed892a4d6cc2c553feb9e698"
+                }
+              }
+            },
+            "revision": "11",
+            "sources": {
+              "demo-app": {
+                "refs/tags/v0.9.0": "bfbb334875175270873e1a561444d7f6e0dde485"
+              }
+            },
+            "unsigned_files": {
+              "demo-app_0.9.0-11~trixie_amd64.deb": "04bb0ee1d7587beee4d7e82a37d3f1c025c19febed892a4d6cc2c553feb9e698"
+            },
+            "versions": {
+              "demo-app": "0.9.0-11~trixie"
+            }
+          },
+          "v1.0.0": {
+            "context": {
+              "build_project": "demo-app",
+              "captured_at": "2026-10-22T19:08:31Z",
+              "cascade": "39836077535",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "cc1d9b43dab3b3928d5ddcd9b43d2a7ee0209655",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "ca2e429b1f1eee9e19249d30ae25ca65fef28670",
+              "recipe_commit": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+              "release_project": "demo-app",
+              "requested_at": "",
+              "run_id": "39837427116",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39837427116",
+              "source_tags": {
+                "demo-app": "v1.0.0",
+                "demo-core": "v1.0.0",
+                "demo-side": "v1.0.0"
+              },
+              "tag": "v1.0.0",
+              "versions": {
+                "demo-app": "1.0.0",
+                "demo-core": "1.0.0",
+                "demo-side": "1.0.0"
+              }
+            },
+            "files": {
+              "demo-app_1.0.0-12~trixie_amd64.deb": "cc95637813c81bece337788395ae1694f2981e4d49c5bbf4463ddb8900981d7b"
+            },
+            "packages": [
+              "demo-app"
+            ],
+            "publications": {
+              "demo-app": {
+                "artifact": {
+                  "digest": "sha256:3773c2b5e305ed7af17eecf3d76aab94e655d1701d3d1f34a44789429ad62aab",
+                  "id": 12452046108
+                },
+                "capture": "39837427116",
+                "job": 120030046349,
+                "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/39837640288/job/120030046349",
+                "publication": "cc1d9b43dab3b3928d5ddcd9b43d2a7ee0209655",
+                "published_at": "2026-10-22T19:14:15.261433+00:00",
+                "revision": "12",
+                "source": {
+                  "attempt": 1,
+                  "run": 39837640288
+                },
+                "tooling": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+                "unsigned_files": {
+                  "demo-app_1.0.0-12~trixie_amd64.deb": "cc95637813c81bece337788395ae1694f2981e4d49c5bbf4463ddb8900981d7b"
+                }
+              }
+            },
+            "revision": "12",
+            "sources": {
+              "demo-app": {
+                "refs/tags/v1.0.0": "2016eec929e601d1348eb5cc96d89b1e3b42aad8"
+              }
+            },
+            "unsigned_files": {
+              "demo-app_1.0.0-12~trixie_amd64.deb": "cc95637813c81bece337788395ae1694f2981e4d49c5bbf4463ddb8900981d7b"
+            },
+            "versions": {
+              "demo-app": "1.0.0-12~trixie"
+            }
+          },
+          "v1.1.0": {
+            "context": {
+              "build_project": "demo-app",
+              "captured_at": "2026-10-22T22:37:09Z",
+              "cascade": "39865323649",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "6a43da900819e5725d86f297e7a3c4ee4a0b0d50",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "d34a125c223d2bdddf387949fe1631f4abb5c32e",
+              "recipe_commit": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+              "release_project": "demo-app",
+              "requested_at": "",
+              "run_id": "39866231578",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39866231578",
+              "source_tags": {
+                "demo-app": "v1.1.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.1.0"
+              },
+              "tag": "v1.1.0",
+              "versions": {
+                "demo-app": "1.1.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.1.0"
+              }
+            },
+            "files": {
+              "demo-app_1.1.0-18~trixie_amd64.deb": "b3b8f65b27bc813f957171adce63f823eae23123ea564bc269cf0e4c97729fa3"
+            },
+            "packages": [
+              "demo-app"
+            ],
+            "publications": {
+              "demo-app": {
+                "artifact": {
+                  "digest": "sha256:a2a3a40c310ef06e5c2b7e4433872c460d72e9d0edbfa3603b03a66b70420dc5",
+                  "id": 12463727906
+                },
+                "capture": "39866231578",
+                "job": 120129419313,
+                "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/39866355652/job/120129419313",
+                "publication": "6a43da900819e5725d86f297e7a3c4ee4a0b0d50",
+                "published_at": "2026-10-22T22:42:09.747088+00:00",
+                "revision": "18",
+                "source": {
+                  "attempt": 1,
+                  "run": 39866355652
+                },
+                "tooling": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+                "unsigned_files": {
+                  "demo-app_1.1.0-18~trixie_amd64.deb": "b3b8f65b27bc813f957171adce63f823eae23123ea564bc269cf0e4c97729fa3"
+                }
+              }
+            },
+            "revision": "18",
+            "sources": {
+              "demo-app": {
+                "refs/tags/v1.1.0": "cfa326469a0ce96dcd67d08c3b6d49d1f57f288c"
+              }
+            },
+            "unsigned_files": {
+              "demo-app_1.1.0-18~trixie_amd64.deb": "b3b8f65b27bc813f957171adce63f823eae23123ea564bc269cf0e4c97729fa3"
+            },
+            "versions": {
+              "demo-app": "1.1.0-18~trixie"
+            }
+          },
+          "v1.2.0": {
+            "context": {
+              "build_project": "demo-app",
+              "captured_at": "2026-10-23T01:01:58Z",
+              "cascade": "39881613016",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "491e17521b2ea30bde33a651ec806a76166b82c7",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "48f2978358a6f7187f96a0bb51a110caf4ec56b2",
+              "recipe_commit": "14912606b9b89a2831cf084cbefda12a14310dfc",
+              "release_project": "demo-app",
+              "requested_at": "2026-10-23T01:01:31Z",
+              "run_id": "39881613016",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39881613016",
+              "source_tags": {
+                "demo-app": "v1.2.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.3.0"
+              },
+              "tag": "v1.2.0",
+              "versions": {
+                "demo-app": "1.2.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.3.0"
+              }
+            },
+            "files": {
+              "demo-app_1.2.0-26~trixie_amd64.deb": "c25a89e32ada704eebd1e9b2a32515dee00d087865fa9c0b07d6b19cde7209a8"
+            },
+            "packages": [
+              "demo-app"
+            ],
+            "publications": {
+              "demo-app": {
+                "artifact": {
+                  "digest": "sha256:4c4c4a4e7444435f99000ca969d5a523145cadf8c9b539683120aa6ec2a5b2b7",
+                  "id": 12471360162
+                },
+                "capture": "39881613016",
+                "job": 120180336677,
+                "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/39881706127/job/120180336677",
+                "publication": "491e17521b2ea30bde33a651ec806a76166b82c7",
+                "published_at": "2026-10-23T01:04:39.951889+00:00",
+                "revision": "26",
+                "source": {
+                  "attempt": 1,
+                  "run": 39881706127
+                },
+                "tooling": "14912606b9b89a2831cf084cbefda12a14310dfc",
+                "unsigned_files": {
+                  "demo-app_1.2.0-26~trixie_amd64.deb": "c25a89e32ada704eebd1e9b2a32515dee00d087865fa9c0b07d6b19cde7209a8"
+                }
+              }
+            },
+            "revision": "26",
+            "sources": {
+              "demo-app": {
+                "refs/tags/v1.2.0": "0a1c8fd4bc9112f25af21232e180c0b8a4de67bf"
+              }
+            },
+            "unsigned_files": {
+              "demo-app_1.2.0-26~trixie_amd64.deb": "c25a89e32ada704eebd1e9b2a32515dee00d087865fa9c0b07d6b19cde7209a8"
+            },
+            "versions": {
+              "demo-app": "1.2.0-26~trixie"
+            }
+          },
+          "v1.2.9": {
+            "context": {
+              "build_project": "demo-app",
+              "captured_at": "2026-10-23T19:30:50Z",
+              "cascade": "40011966084",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "db10f8c7f9e97d90b09fdb4a8266e7dc0beb9914",
+              "recipe_commit": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+              "release_project": "demo-app",
+              "requested_at": "2026-10-23T19:30:20Z",
+              "run_id": "40011966084",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40011966084",
+              "source_tags": {
+                "demo-app": "v1.2.9",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.3.0"
+              },
+              "tag": "v1.2.9",
+              "versions": {
+                "demo-app": "1.2.9",
+                "demo-core": "1.1.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.3.0"
+              }
+            },
+            "files": {
+              "demo-app_1.2.9-29~trixie_amd64.deb": "cda60377d9986fe51e993039195def61cecc657ac5d8e3e62e95b38183a369b9"
+            },
+            "packages": [
+              "demo-app"
+            ],
+            "publications": {
+              "demo-app": {
+                "artifact": {
+                  "digest": "sha256:aa5e95862ae05bb90863cee42276de9ce18f74a0dd0833a71f7cf8a0fa42f2b8",
+                  "id": 12525884073
+                },
+                "capture": "40011966084",
+                "job": 120614897474,
+                "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/40012129436/job/120614897474",
+                "publication": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+                "published_at": "2026-10-23T19:40:43.850969+00:00",
+                "revision": "29",
+                "source": {
+                  "attempt": 1,
+                  "run": 40012129436
+                },
+                "tooling": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+                "unsigned_files": {
+                  "demo-app_1.2.9-29~trixie_amd64.deb": "cda60377d9986fe51e993039195def61cecc657ac5d8e3e62e95b38183a369b9"
+                }
+              }
+            },
+            "revision": "29",
+            "sources": {
+              "demo-app": {
+                "refs/tags/v1.2.9": "0c2763d866731155746ac3360ecae86569c41ece"
+              }
+            },
+            "unsigned_files": {
+              "demo-app_1.2.9-29~trixie_amd64.deb": "cda60377d9986fe51e993039195def61cecc657ac5d8e3e62e95b38183a369b9"
+            },
+            "versions": {
+              "demo-app": "1.2.9-29~trixie"
+            }
+          },
+          "v1.3.0": {
+            "context": {
+              "build_project": "demo-app",
+              "captured_at": "2026-10-23T21:36:53Z",
+              "cascade": "40028023012",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "83f849c975facd6e2fc5c180a35f8187c272edb3",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "136ff9048e5b6698d283b068a3cea535b8e13e04",
+              "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+              "release_project": "demo-app",
+              "requested_at": "2026-10-23T21:36:29Z",
+              "run_id": "40028023012",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40028023012",
+              "source_tags": {
+                "demo-app": "v1.3.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.2.0",
+                "demo-side": "v1.3.0"
+              },
+              "tag": "v1.3.0",
+              "versions": {
+                "demo-app": "1.3.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.2.0",
+                "demo-side": "1.3.0"
+              }
+            },
+            "files": {
+              "demo-app_1.3.0-31~trixie_amd64.deb": "1c1cbbe528bc805b789d82fe2faede0302c73032545e7cd89195b8b603bf8ee3"
+            },
+            "packages": [
+              "demo-app"
+            ],
+            "publications": {
+              "demo-app": {
+                "artifact": {
+                  "digest": "sha256:38e121f4c1e93dace715d38b4aa28e54dea90d721a39c38f9115dab0356d3591",
+                  "id": 12534055701
+                },
+                "capture": "40028023012",
+                "job": 120669324503,
+                "job_url": "https://github.com/VOC-Experiments/demo-app/actions/runs/40028119662/job/120669324503",
+                "publication": "83f849c975facd6e2fc5c180a35f8187c272edb3",
+                "published_at": "2026-10-23T21:39:50.831639+00:00",
+                "revision": "31",
+                "source": {
+                  "attempt": 1,
+                  "run": 40028119662
+                },
+                "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+                "unsigned_files": {
+                  "demo-app_1.3.0-31~trixie_amd64.deb": "1c1cbbe528bc805b789d82fe2faede0302c73032545e7cd89195b8b603bf8ee3"
+                }
+              }
+            },
+            "revision": "31",
+            "sources": {
+              "demo-app": {
+                "refs/tags/v1.3.0": "d979bd6940b19ba9774cb2d510c2ec62236d3211"
+              }
+            },
+            "unsigned_files": {
+              "demo-app_1.3.0-31~trixie_amd64.deb": "1c1cbbe528bc805b789d82fe2faede0302c73032545e7cd89195b8b603bf8ee3"
+            },
+            "versions": {
+              "demo-app": "1.3.0-31~trixie"
+            }
+          }
+        },
+        "demo-core": {
+          "v0.9.0": {
+            "context": {
+              "build_project": "demo-core",
+              "captured_at": "2026-10-23T19:30:38Z",
+              "cascade": "40011937106",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "f8d7649a319cdaf2f1776b7f2f026481cafc4d9c",
+              "recipe_commit": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+              "release_project": "demo-core",
+              "requested_at": "2026-10-23T19:30:12Z",
+              "run_id": "40011937106",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40011937106",
+              "source_tags": {
+                "demo-app": "v1.3.0",
+                "demo-core": "v0.9.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.3.0"
+              },
+              "tag": "v0.9.0",
+              "versions": {
+                "demo-app": "1.3.0",
+                "demo-core": "0.9.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.3.0"
+              }
+            },
+            "files": {
+              "demo-core_0.9.0-13~trixie_amd64.deb": "990c15bbfb3df2f55f572bfa348d254fac6d44fadfe68d9d905daec26b3431a8"
+            },
+            "packages": [
+              "demo-core"
+            ],
+            "publications": {
+              "demo-core": {
+                "artifact": {
+                  "digest": "sha256:8eeb01d5788f560f34f9810dc28783c15e961bac424e7a90b74b7abde4adec85",
+                  "id": 12527445160
+                },
+                "capture": "40011937106",
+                "job": 120614678430,
+                "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/40012064664/job/120614678430",
+                "publication": "7ffa0d28feca24a674c873b567a90d6513a49ac8",
+                "published_at": "2026-10-23T19:34:20.171671+00:00",
+                "revision": "13",
+                "source": {
+                  "attempt": 1,
+                  "run": 40012064664
+                },
+                "tooling": "807efaa4f1bc9d7b9b9990b46632b53d76fd2c0c",
+                "unsigned_files": {
+                  "demo-core_0.9.0-13~trixie_amd64.deb": "990c15bbfb3df2f55f572bfa348d254fac6d44fadfe68d9d905daec26b3431a8"
+                }
+              }
+            },
+            "revision": "13",
+            "sources": {
+              "demo-core": {
+                "refs/tags/v0.9.0": "bd08c2e179779f32185f437ee6ba9bf2c6f04c44"
+              }
+            },
+            "unsigned_files": {
+              "demo-core_0.9.0-13~trixie_amd64.deb": "990c15bbfb3df2f55f572bfa348d254fac6d44fadfe68d9d905daec26b3431a8"
+            },
+            "versions": {
+              "demo-core": "0.9.0-13~trixie"
+            }
+          },
+          "v1.0.0": {
+            "context": {
+              "build_project": "demo-core",
+              "captured_at": "2026-10-22T18:59:10Z",
+              "cascade": "39836077535",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "d9126ec8e7c8b23c9080f7a73c1f053d49b7bd9e",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "d511c7bad3e50b9398f8c792fbf23d3c072fe4a0",
+              "recipe_commit": "59d8acf835bc76ece960f336f624af9460aa5216",
+              "release_project": "demo-core",
+              "requested_at": "2026-10-22T18:58:40Z",
+              "run_id": "39836077535",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39836077535",
+              "source_tags": {
+                "demo-app": "v1.0.0",
+                "demo-core": "v1.0.0",
+                "demo-side": "v1.0.0"
+              },
+              "tag": "v1.0.0",
+              "versions": {
+                "demo-app": "1.0.0",
+                "demo-core": "1.0.0",
+                "demo-side": "1.0.0"
+              }
+            },
+            "files": {
+              "demo-core_1.0.0-6~trixie_amd64.deb": "cff51487eaf10ff825160c13670003c6adad48d04aa8cafbc9da818fece3a3a1"
+            },
+            "packages": [
+              "demo-core"
+            ],
+            "publications": {
+              "demo-core": {
+                "artifact": {
+                  "digest": "sha256:72bc717ff09dcab6bde062b55f1bfc8841696c967c7b675338839a2a7e90d4c9",
+                  "id": 12451176867
+                },
+                "capture": "39836077535",
+                "job": 120025254150,
+                "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/39836242831/job/120025254150",
+                "publication": "d9126ec8e7c8b23c9080f7a73c1f053d49b7bd9e",
+                "published_at": "2026-10-22T19:04:34.055650+00:00",
+                "revision": "6",
+                "source": {
+                  "attempt": 1,
+                  "run": 39836242831
+                },
+                "tooling": "59d8acf835bc76ece960f336f624af9460aa5216",
+                "unsigned_files": {
+                  "demo-core_1.0.0-6~trixie_amd64.deb": "cff51487eaf10ff825160c13670003c6adad48d04aa8cafbc9da818fece3a3a1"
+                }
+              }
+            },
+            "revision": "6",
+            "sources": {
+              "demo-core": {
+                "refs/tags/v1.0.0": "89852e2e8bc4b7f78abcb0fda75b58417b4596a0"
+              }
+            },
+            "unsigned_files": {
+              "demo-core_1.0.0-6~trixie_amd64.deb": "cff51487eaf10ff825160c13670003c6adad48d04aa8cafbc9da818fece3a3a1"
+            },
+            "versions": {
+              "demo-core": "1.0.0-6~trixie"
+            }
+          },
+          "v1.1.0": {
+            "context": {
+              "build_project": "demo-core",
+              "captured_at": "2026-10-23T21:01:53Z",
+              "cascade": "40023702644",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "01be9cbd069624f83f35c2b96be54e8098aa2f23",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "c63a83499cfaed94f8d6cd366747071946182cb3",
+              "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+              "release_project": "demo-core",
+              "requested_at": "2026-10-23T21:01:31Z",
+              "run_id": "40023702644",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40023702644",
+              "source_tags": {
+                "demo-app": "v1.3.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.2.0",
+                "demo-side": "v1.3.0"
+              },
+              "tag": "v1.1.0",
+              "versions": {
+                "demo-app": "1.3.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.2.0",
+                "demo-side": "1.3.0"
+              }
+            },
+            "files": {
+              "demo-core_1.1.0-15~trixie_amd64.deb": "b200f5bcb2b8672338f2f8bbb4ec5f8a795c5f29f7c504e24c06427fa94e5890"
+            },
+            "packages": [
+              "demo-core"
+            ],
+            "publications": {
+              "demo-core": {
+                "artifact": {
+                  "digest": "sha256:70a343871a065df1c6096886a4e3bcdd4b5cdd45284e68996ae4822352a3b654",
+                  "id": 12531318189
+                },
+                "capture": "40023702644",
+                "job": 120654776912,
+                "job_url": "https://github.com/VOC-Experiments/demo-core/actions/runs/40023800402/job/120654776912",
+                "publication": "01be9cbd069624f83f35c2b96be54e8098aa2f23",
+                "published_at": "2026-10-23T21:04:20.822949+00:00",
+                "revision": "15",
+                "source": {
+                  "attempt": 1,
+                  "run": 40023800402
+                },
+                "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+                "unsigned_files": {
+                  "demo-core_1.1.0-15~trixie_amd64.deb": "b200f5bcb2b8672338f2f8bbb4ec5f8a795c5f29f7c504e24c06427fa94e5890"
+                }
+              }
+            },
+            "revision": "15",
+            "sources": {
+              "demo-core": {
+                "refs/tags/v1.1.0": "b2a150f20afeaccb79ca5a5bc375b6c33bd36463"
+              }
+            },
+            "unsigned_files": {
+              "demo-core_1.1.0-15~trixie_amd64.deb": "b200f5bcb2b8672338f2f8bbb4ec5f8a795c5f29f7c504e24c06427fa94e5890"
+            },
+            "versions": {
+              "demo-core": "1.1.0-15~trixie"
+            }
+          }
+        },
+        "demo-join": {
+          "v1.0.0": {
+            "context": {
+              "build_project": "demo-join",
+              "captured_at": "2026-10-22T19:01:49Z",
+              "cascade": "39828642106",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "3c2a7b094f1858b2fd794c3f192cd5cb8f53bca3",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "167c183dc075c2773cae37cef83b5cda1b9bb21d",
+              "recipe_commit": "59d8acf835bc76ece960f336f624af9460aa5216",
+              "release_project": "demo-join",
+              "requested_at": "",
+              "run_id": "39836455332",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39836455332",
+              "source_tags": {
+                "demo-app": "v1.0.0",
+                "demo-core": "v1.0.0",
+                "demo-join": "v1.0.0",
+                "demo-side": "v1.0.0"
+              },
+              "tag": "v1.0.0",
+              "versions": {
+                "demo-app": "1.0.0",
+                "demo-core": "1.0.0",
+                "demo-join": "1.0.0",
+                "demo-side": "1.0.0"
+              }
+            },
+            "files": {
+              "demo-join_1.0.0-2~trixie_amd64.deb": "b3b4a2667706793981975ce39058e36609ab5574fbf9ad7d304b60a56dc2d0e2"
+            },
+            "packages": [
+              "demo-join"
+            ],
+            "publications": {
+              "demo-join": {
+                "artifact": {
+                  "digest": "sha256:d675c1646ba6d8ead4f5050f6da64203396b3efa5f97022ca66df7981bd24eab",
+                  "id": 12453010518
+                },
+                "capture": "39836455332",
+                "job": 120035301848,
+                "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/39839156082/job/120035301848",
+                "publication": "3c2a7b094f1858b2fd794c3f192cd5cb8f53bca3",
+                "published_at": "2026-10-22T19:22:57.911013+00:00",
+                "revision": "2",
+                "source": {
+                  "attempt": 1,
+                  "run": 39839156082
+                },
+                "tooling": "59d8acf835bc76ece960f336f624af9460aa5216",
+                "unsigned_files": {
+                  "demo-join_1.0.0-2~trixie_amd64.deb": "b3b4a2667706793981975ce39058e36609ab5574fbf9ad7d304b60a56dc2d0e2"
+                }
+              }
+            },
+            "revision": "2",
+            "sources": {
+              "demo-join": {
+                "refs/tags/v1.0.0": "e6ab0dcc01a447976831bf89562d0707af06b261"
+              }
+            },
+            "unsigned_files": {
+              "demo-join_1.0.0-2~trixie_amd64.deb": "b3b4a2667706793981975ce39058e36609ab5574fbf9ad7d304b60a56dc2d0e2"
+            },
+            "versions": {
+              "demo-join": "1.0.0-2~trixie"
+            }
+          },
+          "v1.1.0": {
+            "context": {
+              "build_project": "demo-join",
+              "captured_at": "2026-10-23T18:42:37Z",
+              "cascade": "40003480475",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "091a7fe35f3fef2e2c1bb745a710ed5d7bee62a6",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "ce73a27144724761d4aa8064e46abf41706ea7e6",
+              "recipe_commit": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+              "release_project": "demo-join",
+              "requested_at": "",
+              "run_id": "40005489300",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40005489300",
+              "source_tags": {
+                "demo-app": "v1.3.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.3.0"
+              },
+              "tag": "v1.1.0",
+              "versions": {
+                "demo-app": "1.3.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.3.0"
+              }
+            },
+            "files": {
+              "demo-join_1.1.0-39~trixie_amd64.deb": "1bce2f75619b8ad1781c0be1d084052e62643bf4c7c49daf88cdae35e5423fc0"
+            },
+            "packages": [
+              "demo-join"
+            ],
+            "publications": {
+              "demo-join": {
+                "artifact": {
+                  "digest": "sha256:bcf190714e9959a7d3b8069fa183a1410ef0d1d91be47c24049e2259f9b1f960",
+                  "id": 12523483541
+                },
+                "capture": "40005489300",
+                "job": 120592844724,
+                "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/40005674848/job/120592844724",
+                "publication": "091a7fe35f3fef2e2c1bb745a710ed5d7bee62a6",
+                "published_at": "2026-10-23T18:48:43.611994+00:00",
+                "revision": "39",
+                "source": {
+                  "attempt": 1,
+                  "run": 40005674848
+                },
+                "tooling": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+                "unsigned_files": {
+                  "demo-join_1.1.0-39~trixie_amd64.deb": "1bce2f75619b8ad1781c0be1d084052e62643bf4c7c49daf88cdae35e5423fc0"
+                }
+              }
+            },
+            "revision": "39",
+            "sources": {
+              "demo-join": {
+                "refs/tags/v1.1.0": "c81ec6e7a1db7f73d56b6bba095ba4fd4c75004e"
+              }
+            },
+            "unsigned_files": {
+              "demo-join_1.1.0-39~trixie_amd64.deb": "1bce2f75619b8ad1781c0be1d084052e62643bf4c7c49daf88cdae35e5423fc0"
+            },
+            "versions": {
+              "demo-join": "1.1.0-39~trixie"
+            }
+          },
+          "v1.2.0": {
+            "context": {
+              "build_project": "demo-join",
+              "captured_at": "2026-10-23T22:28:30Z",
+              "cascade": "40023702644",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "158f0dd485070b03fcdf6efb14e367f5d7331550",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "9fcf5f52a08a5a3b12aea895567b0d12350b10a1",
+              "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+              "release_project": "demo-join",
+              "requested_at": "",
+              "run_id": "40033799778",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40033799778",
+              "source_tags": {
+                "demo-app": "v1.3.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.2.0",
+                "demo-side": "v1.4.0"
+              },
+              "tag": "v1.2.0",
+              "versions": {
+                "demo-app": "1.3.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.2.0",
+                "demo-side": "1.4.0"
+              }
+            },
+            "files": {
+              "demo-join_1.2.0-42~trixie_amd64.deb": "d4d118100daf6c20a417fcb02b1631321675ff2d21ddf256149f14d3f6342e8b"
+            },
+            "packages": [
+              "demo-join"
+            ],
+            "publications": {
+              "demo-join": {
+                "artifact": {
+                  "digest": "sha256:02fd12cc2a052a3ba4acdd0eb7d72d32ca5e57ed374fb00f3e04bc468a6b2187",
+                  "id": 12536670558
+                },
+                "capture": "40033799778",
+                "job": 120688669976,
+                "job_url": "https://github.com/VOC-Experiments/demo-join/actions/runs/40033929898/job/120688669976",
+                "publication": "158f0dd485070b03fcdf6efb14e367f5d7331550",
+                "published_at": "2026-10-23T22:31:29.998616+00:00",
+                "revision": "42",
+                "source": {
+                  "attempt": 1,
+                  "run": 40033929898
+                },
+                "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+                "unsigned_files": {
+                  "demo-join_1.2.0-42~trixie_amd64.deb": "d4d118100daf6c20a417fcb02b1631321675ff2d21ddf256149f14d3f6342e8b"
+                }
+              }
+            },
+            "revision": "42",
+            "sources": {
+              "demo-join": {
+                "refs/tags/v1.2.0": "55aa9c4fb391e2f502d9a0102ed16620f9ee9418"
+              }
+            },
+            "unsigned_files": {
+              "demo-join_1.2.0-42~trixie_amd64.deb": "d4d118100daf6c20a417fcb02b1631321675ff2d21ddf256149f14d3f6342e8b"
+            },
+            "versions": {
+              "demo-join": "1.2.0-42~trixie"
+            }
+          }
+        },
+        "demo-side": {
+          "v0.9.0": {
+            "context": {
+              "build_project": "demo-side",
+              "captured_at": "2026-10-22T19:07:38Z",
+              "cascade": "39837317408",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "cc1d9b43dab3b3928d5ddcd9b43d2a7ee0209655",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "dbf60465c5b618090f9ef993604f523a0db8186e",
+              "recipe_commit": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+              "release_project": "demo-side",
+              "requested_at": "2026-10-22T19:07:09Z",
+              "run_id": "39837317408",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39837317408",
+              "source_tags": {
+                "demo-app": "v1.0.0",
+                "demo-core": "v1.0.0",
+                "demo-side": "v0.9.0"
+              },
+              "tag": "v0.9.0",
+              "versions": {
+                "demo-app": "1.0.0",
+                "demo-core": "1.0.0",
+                "demo-side": "0.9.0"
+              }
+            },
+            "files": {
+              "demo-side_0.9.0-2~trixie_amd64.deb": "e82aac20d9a3b1a7cb71d5264836ebc4b07867b72d39d8979a55caffa26311ac"
+            },
+            "packages": [
+              "demo-side"
+            ],
+            "publications": {
+              "demo-side": {
+                "artifact": {
+                  "digest": "sha256:2899961915a67940088d1693b6069e84b0f73de9b107382a6e0321349ed7f73a",
+                  "id": 12451586919
+                },
+                "capture": "39837317408",
+                "job": 120030134824,
+                "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/39837665259/job/120030134824",
+                "publication": "cc1d9b43dab3b3928d5ddcd9b43d2a7ee0209655",
+                "published_at": "2026-10-22T19:12:56.422024+00:00",
+                "revision": "2",
+                "source": {
+                  "attempt": 1,
+                  "run": 39837665259
+                },
+                "tooling": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+                "unsigned_files": {
+                  "demo-side_0.9.0-2~trixie_amd64.deb": "e82aac20d9a3b1a7cb71d5264836ebc4b07867b72d39d8979a55caffa26311ac"
+                }
+              }
+            },
+            "revision": "2",
+            "sources": {
+              "demo-side": {
+                "refs/tags/v0.9.0": "4162d71f185473b8f9f8f7db88dea2c080eb2c61"
+              }
+            },
+            "unsigned_files": {
+              "demo-side_0.9.0-2~trixie_amd64.deb": "e82aac20d9a3b1a7cb71d5264836ebc4b07867b72d39d8979a55caffa26311ac"
+            },
+            "versions": {
+              "demo-side": "0.9.0-2~trixie"
+            }
+          },
+          "v1.0.0": {
+            "context": {
+              "build_project": "demo-side",
+              "captured_at": "2026-10-22T19:08:39Z",
+              "cascade": "39836077535",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "cc1d9b43dab3b3928d5ddcd9b43d2a7ee0209655",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "13180ee429a699cad9b82a133a6b71de1f7fe5bb",
+              "recipe_commit": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+              "release_project": "demo-side",
+              "requested_at": "",
+              "run_id": "39837462528",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39837462528",
+              "source_tags": {
+                "demo-app": "v1.0.0",
+                "demo-core": "v1.0.0",
+                "demo-side": "v1.0.0"
+              },
+              "tag": "v1.0.0",
+              "versions": {
+                "demo-app": "1.0.0",
+                "demo-core": "1.0.0",
+                "demo-side": "1.0.0"
+              }
+            },
+            "files": {
+              "demo-side_1.0.0-3~trixie_amd64.deb": "14f3194bfb66c1fe5bfd519a0db9c937bdaf9aa22f12a4a4ef03708402a7ba3a"
+            },
+            "packages": [
+              "demo-side"
+            ],
+            "publications": {
+              "demo-side": {
+                "artifact": {
+                  "digest": "sha256:755e48f26aabb703ce3760303109d95982818f362588b0fbb1c637fe008837df",
+                  "id": 12452250506
+                },
+                "capture": "39837462528",
+                "job": 120030090792,
+                "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/39837652737/job/120030090792",
+                "publication": "cc1d9b43dab3b3928d5ddcd9b43d2a7ee0209655",
+                "published_at": "2026-10-22T19:16:09.306173+00:00",
+                "revision": "3",
+                "source": {
+                  "attempt": 1,
+                  "run": 39837652737
+                },
+                "tooling": "fb450a48dc42991453e3197dbc15932aeb178f1c",
+                "unsigned_files": {
+                  "demo-side_1.0.0-3~trixie_amd64.deb": "14f3194bfb66c1fe5bfd519a0db9c937bdaf9aa22f12a4a4ef03708402a7ba3a"
+                }
+              }
+            },
+            "revision": "3",
+            "sources": {
+              "demo-side": {
+                "refs/tags/v1.0.0": "8d49553578bb7adf86a8ada565ab623a05641457"
+              }
+            },
+            "unsigned_files": {
+              "demo-side_1.0.0-3~trixie_amd64.deb": "14f3194bfb66c1fe5bfd519a0db9c937bdaf9aa22f12a4a4ef03708402a7ba3a"
+            },
+            "versions": {
+              "demo-side": "1.0.0-3~trixie"
+            }
+          },
+          "v1.1.0": {
+            "context": {
+              "build_project": "demo-side",
+              "captured_at": "2026-10-22T22:37:11Z",
+              "cascade": "39865323649",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "6a43da900819e5725d86f297e7a3c4ee4a0b0d50",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "da08e8a6cd4aee592d45a2911b544e2f7607be57",
+              "recipe_commit": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+              "release_project": "demo-side",
+              "requested_at": "",
+              "run_id": "39866241237",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39866241237",
+              "source_tags": {
+                "demo-app": "v1.1.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.1.0"
+              },
+              "tag": "v1.1.0",
+              "versions": {
+                "demo-app": "1.1.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.1.0"
+              }
+            },
+            "files": {
+              "demo-side_1.1.0-8~trixie_amd64.deb": "b3c8d88bba1f7d432b54ed28ce202f97625cfd8ea74bbdd97b573c6eb7f1cd40"
+            },
+            "packages": [
+              "demo-side"
+            ],
+            "publications": {
+              "demo-side": {
+                "artifact": {
+                  "digest": "sha256:a1abcee4cf759c900a9012f85658913b4ba52fa4bd36d263b0828a5b3bc57c34",
+                  "id": 12463847630
+                },
+                "capture": "39866241237",
+                "job": 120129452312,
+                "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/39866366174/job/120129452312",
+                "publication": "6a43da900819e5725d86f297e7a3c4ee4a0b0d50",
+                "published_at": "2026-10-22T22:47:17.423108+00:00",
+                "revision": "8",
+                "source": {
+                  "attempt": 1,
+                  "run": 39866366174
+                },
+                "tooling": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+                "unsigned_files": {
+                  "demo-side_1.1.0-8~trixie_amd64.deb": "b3c8d88bba1f7d432b54ed28ce202f97625cfd8ea74bbdd97b573c6eb7f1cd40"
+                }
+              }
+            },
+            "revision": "8",
+            "sources": {
+              "demo-side": {
+                "refs/tags/v1.1.0": "57d583fe6ad38ad9e9c3447dddd4cfa05f4396f6"
+              }
+            },
+            "unsigned_files": {
+              "demo-side_1.1.0-8~trixie_amd64.deb": "b3c8d88bba1f7d432b54ed28ce202f97625cfd8ea74bbdd97b573c6eb7f1cd40"
+            },
+            "versions": {
+              "demo-side": "1.1.0-8~trixie"
+            }
+          },
+          "v1.2.0": {
+            "context": {
+              "build_project": "demo-side",
+              "captured_at": "2026-10-22T22:40:05Z",
+              "cascade": "39866571785",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "06d7718e0c8751033f9e0355d0d62c6c70938e83",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "fca8c7e308594796413d33235b633e2032add1d4",
+              "recipe_commit": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+              "release_project": "demo-side",
+              "requested_at": "2026-10-22T22:39:40Z",
+              "run_id": "39866571785",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/39866571785",
+              "source_tags": {
+                "demo-app": "v1.1.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.2.0"
+              },
+              "tag": "v1.2.0",
+              "versions": {
+                "demo-app": "1.1.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.2.0"
+              }
+            },
+            "files": {
+              "demo-side_1.2.0-10~trixie_amd64.deb": "53721edb1a2db692bb593c8d7b286e54b310eb7161b927725aefc7257fb777de"
+            },
+            "packages": [
+              "demo-side"
+            ],
+            "publications": {
+              "demo-side": {
+                "artifact": {
+                  "digest": "sha256:c735874e2e0bfc5a0a21a67dd7d4e214305a6589fd943e82735312695f15222c",
+                  "id": 12463779959
+                },
+                "capture": "39866571785",
+                "job": 120133033234,
+                "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/39867423868/job/120133033234",
+                "publication": "06d7718e0c8751033f9e0355d0d62c6c70938e83",
+                "published_at": "2026-10-22T22:57:22.228942+00:00",
+                "revision": "10",
+                "source": {
+                  "attempt": 1,
+                  "run": 39867423868
+                },
+                "tooling": "7cd30dff9752cd36c567fa9fdd063d5064344760",
+                "unsigned_files": {
+                  "demo-side_1.2.0-10~trixie_amd64.deb": "53721edb1a2db692bb593c8d7b286e54b310eb7161b927725aefc7257fb777de"
+                }
+              }
+            },
+            "revision": "10",
+            "sources": {
+              "demo-side": {
+                "refs/tags/v1.2.0": "2c36aa98ba01c8ec42aceb3b8541a199ce97beed"
+              }
+            },
+            "unsigned_files": {
+              "demo-side_1.2.0-10~trixie_amd64.deb": "53721edb1a2db692bb593c8d7b286e54b310eb7161b927725aefc7257fb777de"
+            },
+            "versions": {
+              "demo-side": "1.2.0-10~trixie"
+            }
+          },
+          "v1.3.0": {
+            "context": {
+              "build_project": "demo-side",
+              "captured_at": "2026-10-23T18:33:53Z",
+              "cascade": "40003480475",
+              "cause": "dependent",
+              "contract": 3,
+              "dependency_commit": "475beae26feb6c64ae526627b21063411b4438e4",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "bf47402a080a60622da77e868b3934c765036d27",
+              "recipe_commit": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+              "release_project": "demo-side",
+              "requested_at": "",
+              "run_id": "40004281592",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40004281592",
+              "source_tags": {
+                "demo-app": "v1.3.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.1.0",
+                "demo-side": "v1.3.0"
+              },
+              "tag": "v1.3.0",
+              "versions": {
+                "demo-app": "1.3.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.1.0",
+                "demo-side": "1.3.0"
+              }
+            },
+            "files": {
+              "demo-side_1.3.0-20~trixie_amd64.deb": "64a5550fe44f501f6df288fc9e8186b206c6c1c9dcb8a03ff6418603107494ec"
+            },
+            "packages": [
+              "demo-side"
+            ],
+            "publications": {
+              "demo-side": {
+                "artifact": {
+                  "digest": "sha256:154be483cdb522e330c1900350f85e0abe226c921f57555388e0be714212f228",
+                  "id": 12524165127
+                },
+                "capture": "40004281592",
+                "job": 120588552459,
+                "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/40004411123/job/120588552459",
+                "publication": "475beae26feb6c64ae526627b21063411b4438e4",
+                "published_at": "2026-10-23T18:39:45.294735+00:00",
+                "revision": "20",
+                "source": {
+                  "attempt": 1,
+                  "run": 40004411123
+                },
+                "tooling": "5e74565e4955b7e98d07351f0eb644f007aed4c2",
+                "unsigned_files": {
+                  "demo-side_1.3.0-20~trixie_amd64.deb": "64a5550fe44f501f6df288fc9e8186b206c6c1c9dcb8a03ff6418603107494ec"
+                }
+              }
+            },
+            "revision": "20",
+            "sources": {
+              "demo-side": {
+                "refs/tags/v1.3.0": "ccd1ff10e3f079dc3d3b327b34e966dae8977df8"
+              }
+            },
+            "unsigned_files": {
+              "demo-side_1.3.0-20~trixie_amd64.deb": "64a5550fe44f501f6df288fc9e8186b206c6c1c9dcb8a03ff6418603107494ec"
+            },
+            "versions": {
+              "demo-side": "1.3.0-20~trixie"
+            }
+          },
+          "v1.4.0": {
+            "context": {
+              "build_project": "demo-side",
+              "captured_at": "2026-10-23T22:20:22Z",
+              "cascade": "40032925715",
+              "cause": "release",
+              "contract": 3,
+              "dependency_commit": "9af7fcbf65c3a50b6ac9072532c7375e4dc52808",
+              "destination": "VOC-Experiments/packages",
+              "packages_commit": "29b364d59606e3f47f58da288ec2387426aa8431",
+              "recipe_commit": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+              "release_project": "demo-side",
+              "requested_at": "2026-10-23T22:19:58Z",
+              "run_id": "40032925715",
+              "run_url": "https://github.com/VOC-Experiments/ci-coordinator/actions/runs/40032925715",
+              "source_tags": {
+                "demo-app": "v1.3.0",
+                "demo-core": "v1.1.0",
+                "demo-join": "v1.2.0",
+                "demo-side": "v1.4.0"
+              },
+              "tag": "v1.4.0",
+              "versions": {
+                "demo-app": "1.3.0",
+                "demo-core": "1.1.0",
+                "demo-join": "1.2.0",
+                "demo-side": "1.4.0"
+              }
+            },
+            "files": {
+              "demo-side_1.4.0-23~trixie_amd64.deb": "db1a46f00591df3d6f65da1e95ab6532f6e3e4583edeacb197c6f6acf66a674d"
+            },
+            "packages": [
+              "demo-side"
+            ],
+            "publications": {
+              "demo-side": {
+                "artifact": {
+                  "digest": "sha256:1c04b6b588d855af3dc0a1bd5f44bba13bbbe39796457d92f8d4c96ad6905415",
+                  "id": 12535178305
+                },
+                "capture": "40032925715",
+                "job": 120685718519,
+                "job_url": "https://github.com/VOC-Experiments/demo-side/actions/runs/40033025998/job/120685718519",
+                "publication": "9af7fcbf65c3a50b6ac9072532c7375e4dc52808",
+                "published_at": "2026-10-23T22:24:02.778059+00:00",
+                "revision": "23",
+                "source": {
+                  "attempt": 1,
+                  "run": 40033025998
+                },
+                "tooling": "31ad5f34ae399e4adf531a661c6124d28af5fa39",
+                "unsigned_files": {
+                  "demo-side_1.4.0-23~trixie_amd64.deb": "db1a46f00591df3d6f65da1e95ab6532f6e3e4583edeacb197c6f6acf66a674d"
+                }
+              }
+            },
+            "revision": "23",
+            "sources": {
+              "demo-side": {
+                "refs/tags/v1.4.0": "7675c318b85c4f14b879e97aa7b82ce444ad3169"
+              }
+            },
+            "unsigned_files": {
+              "demo-side_1.4.0-23~trixie_amd64.deb": "db1a46f00591df3d6f65da1e95ab6532f6e3e4583edeacb197c6f6acf66a674d"
+            },
+            "versions": {
+              "demo-side": "1.4.0-23~trixie"
+            }
+          }
+        }
+      },
+      "revision": "42",
+      "sources": {
+        "demo-app": {
+          "refs/tags/v1.3.0": "d979bd6940b19ba9774cb2d510c2ec62236d3211"
+        },
+        "demo-core": {
+          "refs/tags/v1.1.0": "b2a150f20afeaccb79ca5a5bc375b6c33bd36463"
+        },
+        "demo-join": {
+          "refs/tags/v1.2.0": "55aa9c4fb391e2f502d9a0102ed16620f9ee9418"
+        },
+        "demo-side": {
+          "refs/tags/v1.4.0": "7675c318b85c4f14b879e97aa7b82ce444ad3169"
+        }
+      },
+      "suite": "trixie",
+      "versions": {
+        "demo-app": "1.3.0-31~trixie",
+        "demo-core": "1.1.0-15~trixie",
+        "demo-join": "1.2.0-42~trixie",
+        "demo-side": "1.4.0-23~trixie"
+      }
+    }
+  }
+}

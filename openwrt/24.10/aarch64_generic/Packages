@@ -1,0 +1,224 @@
+Package: demo-app
+Version: 1.0.0-r14
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-app_1.0.0-r14_aarch64_generic.ipk
+Size: 1876
+SHA256sum: 18c8b6678205de690c20669fccfba3933ef934fff1a311c3beae8716cc2831b7
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.1.0-r17
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-app_1.1.0-r17_aarch64_generic.ipk
+Size: 1873
+SHA256sum: ce7f2747471e419d0e3d572eb9ec21456491c215ecc304a1a7add01d2742932b
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.2.0-r26
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-app_1.2.0-r26_aarch64_generic.ipk
+Size: 1876
+SHA256sum: 0e649270f615ff457c0e59d2b8c0480d02d449dd26ea5c591b348002294d2261
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.2.9-r29
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-app_1.2.9-r29_aarch64_generic.ipk
+Size: 1886
+SHA256sum: af6d257cd20c6b7c8d3d09416ff703cd79029e2a4b03e7a3a422929a0568fd9d
+Description:  demo-app canonical CI experiment
+
+Package: demo-app
+Version: 1.3.0-r31
+Depends: libc, demo-core
+Source: recipes/demo-app
+SourceName: demo-app
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-app_1.3.0-r31_aarch64_generic.ipk
+Size: 1877
+SHA256sum: 2f6fb8cf87bce7c850d9f9d3df3728137d82b26fd61a1b85af8ec2e6fe8ee7fc
+Description:  demo-app canonical CI experiment
+
+Package: demo-core
+Version: 0.9.0-r13
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-core_0.9.0-r13_aarch64_generic.ipk
+Size: 2670
+SHA256sum: d16a101b533153e24007ce55855be1cfbf10d399370dd056ee12532a103b7b78
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.0.0-r6
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-core_1.0.0-r6_aarch64_generic.ipk
+Size: 2640
+SHA256sum: 9c62b53e6113f8e7f3e38a06d3957491a3c6b268a0877d120e140f430798bcff
+Description:  demo-core canonical CI experiment
+
+Package: demo-core
+Version: 1.1.0-r15
+Depends: libc
+Source: recipes/demo-core
+SourceName: demo-core
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-core_1.1.0-r15_aarch64_generic.ipk
+Size: 2665
+SHA256sum: e6fe5b8ee5c375653d09d4069c4feb32b8cc2de17d2bb1ac8ea7f4064c513cb5
+Description:  demo-core canonical CI experiment
+
+Package: demo-join
+Version: 1.0.0-r6
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-join_1.0.0-r6_aarch64_generic.ipk
+Size: 1912
+SHA256sum: ad9e0555125c892ade844a86124616358c004b26d654b2788d33cd8a4179ec01
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.1.0-r39
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-join_1.1.0-r39_aarch64_generic.ipk
+Size: 1910
+SHA256sum: 41876c8f3720cc4cdedb0f3762defde914c82b1de4f1526b3e0d2c50a480386c
+Description:  demo-join canonical CI experiment
+
+Package: demo-join
+Version: 1.2.0-r42
+Depends: libc, demo-app, demo-side
+Source: recipes/demo-join
+SourceName: demo-join
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 71680
+Filename: demo-join_1.2.0-r42_aarch64_generic.ipk
+Size: 1914
+SHA256sum: 446e97c26743a68a0bfc806bc7286ac9ee5e24b2448e8e6c8a846561415ae060
+Description:  demo-join canonical CI experiment
+
+Package: demo-side
+Version: 1.0.0-r4
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-side_1.0.0-r4_aarch64_generic.ipk
+Size: 2725
+SHA256sum: 6aca61fd9eae75cc07e39c016305fec88c36d2c5c2e295e7ab1516d73adfbcc3
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.1.0-r7
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-side_1.1.0-r7_aarch64_generic.ipk
+Size: 2727
+SHA256sum: cb79fc66d31467560abcbd71d5161a43bb6fe5be4c021f4402127ecd1dde89d0
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.2.0-r10
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-side_1.2.0-r10_aarch64_generic.ipk
+Size: 2722
+SHA256sum: e59d6227844a3e2f58f56011c565cc93f9486e01462f039eb62702cf812e63e3
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.3.0-r20
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-side_1.3.0-r20_aarch64_generic.ipk
+Size: 2721
+SHA256sum: 41606251264f237b0b32b1a7c226c8562803c89d55dc8c5393a8256b06a2635a
+Description:  demo-side canonical CI experiment
+
+Package: demo-side
+Version: 1.4.0-r23
+Depends: libc, demo-core
+Source: recipes/demo-side
+SourceName: demo-side
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: aarch64_generic
+Installed-Size: 143360
+Filename: demo-side_1.4.0-r23_aarch64_generic.ipk
+Size: 2714
+SHA256sum: d5632defcfa5f980622bf7d596aad48f5c365228a23fcf338d10c01e54fd0fad
+Description:  demo-side canonical CI experiment
+
